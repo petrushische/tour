@@ -13,3 +13,13 @@
 @import url(../blocks/header/__number/header__number.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__menu/header__menu.css);
+
+@import url(../blocks/tour-choose/tour-choose.css);
+@import url(../blocks/tour-choose/__head/tour-choose__head.css);
+@import url(../blocks/tour-choose/__title/tour-choose__title.css);
+@import url(../blocks/tour-choose/__category/tour-choose__category.css);
+@import url(../blocks/tour-choose/__main/tour-choose__main.css);
+@import url(../blocks/tour-choose/__card/tour-choose__card.css);
+@import url(../blocks/tour-choose/__subtitle/tour-choose__subtitle.css);
+@import url(../blocks/tour-choose/__price/tour-choose__price.css);
+@import url(../blocks/tour-choose/__link/tour-choose__link.css);

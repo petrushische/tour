@@ -1,0 +1,22 @@
+.tour-choose__category {
+  margin: 0;
+  display: inline-block;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  color: #1B1F2B;
+  margin-top: 35px;
+  margin-right: 30px;
+}
+
+.tour-choose__category:nth-of-type(5) {
+  margin-right: 0;
+}
+
+
+.tour-choose__category:active {
+  color: #EFA501;
+  text-decoration: underline;
+}

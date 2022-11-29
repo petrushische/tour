@@ -1,0 +1,10 @@
+.tour-choose__card {
+  width: 370px;
+  height: 531px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

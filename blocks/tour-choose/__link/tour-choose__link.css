@@ -1,0 +1,20 @@
+.tour-choose__link {
+  margin-top: 277px;
+  width: 270px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  /* identical to box height, or 28px */
+
+
+  /* White */
+
+  color: #FFFFFF;
+
+}
+
+.tour-choose__link:hover {
+  color: gold;
+}

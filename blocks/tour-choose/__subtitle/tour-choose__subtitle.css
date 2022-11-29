@@ -1,0 +1,16 @@
+.tour-choose__subtitle {
+  margin: 0;
+  margin-top: 50px;
+  width: 270px;
+  height: 86px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 122%;
+  /* or 43px */
+
+
+  /* White */
+
+  color: #FFFFFF;
+}

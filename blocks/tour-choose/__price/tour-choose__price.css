@@ -1,0 +1,17 @@
+.tour-choose__price {
+  margin: 0;
+  margin-top: 16px;
+  width: 270px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 142%;
+  /* or 24px */
+
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #FFFFFF;
+}

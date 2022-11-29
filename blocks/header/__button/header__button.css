@@ -18,3 +18,8 @@
 
   color: #1B1F2B;
 }
+
+.header__button:hover {
+  cursor: pointer;
+  background-color: gold;
+}
