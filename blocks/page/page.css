@@ -1,0 +1,7 @@
+.page {
+  background-color: #F9F7F4;
+  max-width: 1920px;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Inter", "Arial", sans-serif;
+}

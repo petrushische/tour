@@ -1,0 +1,20 @@
+.header__button {
+  margin-top: 50px;
+  padding: 0;
+  border: 0;
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 118px;
+  height: 34px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 142%;
+  /* or 24px */
+
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #1B1F2B;
+}

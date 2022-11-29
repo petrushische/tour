@@ -1,0 +1,13 @@
+.header__link {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  text-decoration: none;
+}
+
+
+.header__link:hover {
+  border-bottom: solid white 2px;
+}
