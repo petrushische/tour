@@ -1,0 +1,10 @@
+.reviews__foto-card {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  object-fit: cover;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

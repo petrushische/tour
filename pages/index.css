@@ -48,6 +48,18 @@
 @import url(../blocks/tour-assemble/__button-reset/tour-assemble__button-reset.css);
 @import url(../blocks/tour-assemble/__button-search/tour-assemble__button-search.css);
 
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__wrapper/reviews__wrapper.css);
+@import url(../blocks/reviews/__card/reviews__card.css);
+@import url(../blocks/reviews/__profile/reviews__profile.css);
+@import url(../blocks/reviews/__text-card/reviews__text-card.css);
+@import url(../blocks/reviews/__text-card/_type/reviews__text-card_type_margin.css);
+@import url(../blocks/reviews/__title-card/reviews__title-card.css);
+@import url(../blocks/reviews/__subtitle-card/reviews__subtitle-card.css);
+@import url(../blocks/reviews/__foto-card/reviews__foto-card.css);
+
 
 /*горизонтальный скролл*/
 .html {

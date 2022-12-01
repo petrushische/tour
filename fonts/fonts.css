@@ -8,6 +8,13 @@
 @font-face {
   font-family: "Inter";
   font-style: normal;
+  font-weight: 500;
+  src: url(Inter-Medium.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 700;
   src: url(Inter-Bold.ttf) format("ttf");
 }

@@ -1,0 +1,10 @@
+.reviews__profile {
+  margin-bottom: 40px;
+  align-self: flex-end;
+  width: 510px;
+  height: 145px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+}

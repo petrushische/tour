@@ -10,5 +10,9 @@
   font-size: 20px;
   line-height: 142%;
   color: #286562;
+}
 
+.tour-assemble__button-reset:hover {
+  cursor: pointer;
+  background-color: gold;
 }

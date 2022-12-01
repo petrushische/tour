@@ -1,0 +1,15 @@
+.reviews__subtitle-card {
+  margin: 0;
+  width: 415px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 142%;
+  /* or 24px */
+
+  letter-spacing: -0.01em;
+
+  /* Gray 300 */
+
+  color: #A6A6A6;
+}
