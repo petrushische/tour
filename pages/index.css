@@ -23,3 +23,34 @@
 @import url(../blocks/tour-choose/__subtitle/tour-choose__subtitle.css);
 @import url(../blocks/tour-choose/__price/tour-choose__price.css);
 @import url(../blocks/tour-choose/__link/tour-choose__link.css);
+
+
+@import url(../blocks/tour-assemble/tour-assemble.css);
+@import url(../blocks/tour-assemble/__title/tour-assemble__title.css);
+@import url(../blocks/tour-assemble/__text/tour-assemble__text.css);
+
+@import url(../blocks/tour-assemble/__form/tour-assemble__form.css);
+@import url(../blocks/tour-assemble/__input-title/tour-assemble__input-title.css);
+@import url(../blocks/tour-assemble/__input/tour-assemble__input.css);
+
+@import url(../blocks/tour-assemble/__textarea-title/tour-assemble__textarea-title.css);
+@import url(../blocks/tour-assemble/__textarea/tour-assemble__textarea.css);
+
+@import url(../blocks/tour-assemble/__wrapper-radio/tour-assemble__wrapper-radio.css);
+@import url(../blocks/tour-assemble/__wrapper-title/tour-assemble__wrapper-title.css);
+@import url(../blocks/tour-assemble/__radio/tour-assemble__radio.css);
+@import url(../blocks/tour-assemble/__radio-title/tour-assemble__radio-title.css);
+
+@import url(../blocks/tour-assemble/__checkbox-title/tour-assemble__checkbox-title.css);
+@import url(../blocks/tour-assemble/__checkbox/tour-assemble__checkbox.css);
+
+@import url(../blocks/tour-assemble/__wrapper-button/tour-assemble__wrapper-button.css);
+@import url(../blocks/tour-assemble/__button-reset/tour-assemble__button-reset.css);
+@import url(../blocks/tour-assemble/__button-search/tour-assemble__button-search.css);
+
+
+/*горизонтальный скролл*/
+.html {
+  width: 100vw;
+  overflow-x: hidden;
+}

@@ -1,0 +1,11 @@
+.tour-assemble__textarea-title {
+  width: 1030px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  color: #1B1F2B;
+  display: flex;
+  flex-direction: column;
+
+}

@@ -1,0 +1,14 @@
+.tour-assemble__textarea {
+  padding: 0;
+  margin-top: 8px;
+  background: #F9F7F4;
+  /* Beige 200 */
+  border: 1px solid #F4F0E9;
+  border-radius: 10px;
+  height: 152px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  color: #A6A6A6;
+}

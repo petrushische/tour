@@ -1,0 +1,7 @@
+.tour-assemble {
+  padding-top: 135px;
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

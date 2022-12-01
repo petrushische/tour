@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="html">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -33,7 +33,7 @@
         </p>
         <button class="header__button" type="button">Найти тур</button>
       </div>
-      <div class="tour-choose">
+      <section class="tour-choose">
         <div class="tour-choose__head">
           <h2 class="tour-choose__title">Выбери свой тур</h2>
           <a href="javascript:void(0);" class="tour-choose__category"
@@ -158,7 +158,118 @@
             >
           </div>
         </div>
-      </div>
+      </section>
+      <section class="tour-assemble">
+        <h2 class="tour-assemble__title">Собери свой тур</h2>
+        <p class="tour-assemble__text">
+          Идейные соображения высшего порядка,<br />а также рамки и место
+          обучения кадров
+        </p>
+        <form action="" class="tour-assemble__form" name="form">
+          <label for="name" class="tour-assemble__input-title">
+            Имя
+            <input
+              type="text"
+              id="name"
+              class="tour-assemble__input"
+              placeholder="Введите Ваше имя"
+            />
+          </label>
+          <label for="direction" class="tour-assemble__input-title"
+            >Направление
+            <select
+              name="direction"
+              id="direction"
+              class="tour-assemble__input"
+            >
+              <option value="" disabled selected hidden>
+                Куда хотите ехать
+              </option>
+              <option value="1">На кудыкину гору</option>
+            </select>
+          </label>
+          <label for="email" class="tour-assemble__input-title">
+            Email
+            <input
+              type="email"
+              id="email"
+              class="tour-assemble__input"
+              placeholder="example@mail.com"
+            />
+          </label>
+          <label for="telephone" class="tour-assemble__input-title">
+            Телефон
+            <input
+              type="number"
+              id="telephone"
+              class="tour-assemble__input"
+              placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+            />
+          </label>
+          <label for="date-from" class="tour-assemble__input-title">
+            Дата от
+            <input
+              type="date"
+              id="date-from"
+              class="tour-assemble__input"
+              placeholder="ДД.ММ.ГГГГ"
+            />
+          </label>
+
+          <label for="date-before" class="tour-assemble__input-title">
+            Дата до
+            <input
+              type="date"
+              id="date-before"
+              class="tour-assemble__input"
+              placeholder="ДД.ММ.ГГГГ"
+            />
+          </label>
+          <label for="textarea" class="tour-assemble__textarea-title">
+            Комментарий
+            <textarea
+              type="text"
+              id="textarea"
+              class="tour-assemble__textarea"
+            ></textarea>
+          </label>
+          <div class="tour-assemble__wrapper-radio">
+            <p class="tour-assemble__wrapper-title">Вам есть 18 лет?</p>
+            <input
+              type="radio"
+              id="yse"
+              class="tour-assemble__radio"
+              value="yes"
+              name="redio"
+            />
+            <label for="yes" class="tour-assemble__radio-title">Да</label>
+            <input
+              type="radio"
+              id="no"
+              class="tour-assemble__radio"
+              value="no"
+              name="redio"
+            />
+            <label for="no" class="tour-assemble__radio-title">Нет</label>
+          </div>
+          <label for="checkbox" class="tour-assemble__checkbox-title"
+            ><input
+              type="checkbox"
+              id="checkbox"
+              class="tour-assemble__checkbox"
+            />
+            Нажимая кнопку, я принимаю условия Лицензионного договора
+          </label>
+          <div class="tour-assemble__wrapper-button">
+            <button class="tour-assemble__button-search" type="save">
+              Найти тур
+            </button>
+            <button class="tour-assemble__button-reset" type="reset">
+              Сбросить
+            </button>
+          </div>
+        </form>
+      </section>
     </div>
   </body>
 </html>

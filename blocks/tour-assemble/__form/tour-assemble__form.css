@@ -1,0 +1,10 @@
+.tour-assemble__form {
+  column-gap: 30px;
+  row-gap: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1170px;
+  background: #FFFFFF;
+  border-radius: 50px;
+}

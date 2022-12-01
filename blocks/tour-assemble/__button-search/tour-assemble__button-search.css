@@ -1,0 +1,14 @@
+.tour-assemble__button-search {
+  padding: 0;
+  width: 235px;
+  height: 58px;
+  border: none;
+  background: #286562;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  margin-right: 30px;
+  color: #FFFFFF;
+}
