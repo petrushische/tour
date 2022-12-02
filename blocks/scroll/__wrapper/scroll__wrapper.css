@@ -1,7 +1,6 @@
-.header__nav {
-  padding-top: 29px;
+.scroll__wrapper {
   width: 1168px;
+  height: 30.24px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }

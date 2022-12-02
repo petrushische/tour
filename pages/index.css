@@ -95,6 +95,12 @@
 @import url(../blocks/footer/__li/footer__li.css);
 @import url(../blocks/footer/__lnk/footer__lnk.css);
 
+@import url(../blocks/scroll/scroll.css);
+@import url(../blocks/scroll/__logo/scroll__logo.css);
+@import url(../blocks/scroll/__menu/scroll__menu.css);
+@import url(../blocks/scroll/__link/scroll__link.css);
+@import url(../blocks/scroll/__number/scroll__number.css);
+@import url(../blocks/scroll/__wrapper/scroll__wrapper.css);
 
 /*горизонтальный скролл*/
 .html {

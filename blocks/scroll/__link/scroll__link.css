@@ -1,0 +1,12 @@
+.scroll__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  text-decoration: none;
+  color: #1B1F2B;
+}
+
+.scroll__link:hover {
+  text-decoration: underline;
+}
