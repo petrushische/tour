@@ -1,0 +1,14 @@
+.tour-history__card-logo {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+
+  color: #FFFFFF;
+}
+
+.tour-history__card-logo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -69,8 +69,26 @@
 @import url(../blocks/tour-foto/__foto/_type/tour-foto__foto_type_small.css);
 @import url(../blocks/tour-foto/__line-five-image/tour-foto__line-five-image.css);
 
-@import url(..);
-@import url(..);
+@import url(../blocks/tour-history/tour-history.css);
+@import url(../blocks/tour-history/__title/tour-history__title.css);
+@import url(../blocks/tour-history/__text/tour-history__text.css);
+@import url(../blocks/tour-history/__card/tour-history__card.css);
+@import url(../blocks/tour-history/__card-title/tour-history__card-title.css);
+@import url(../blocks/tour-history/__card-text/tour-history__card-text.css);
+@import url(../blocks/tour-history/__card-list/tour-history__card-list.css);
+@import url(../blocks/tour-history/__card-li/tour-history__card-li.css);
+@import url(../blocks/tour-history/__card-link/tour-history__card-link.css);
+@import url(../blocks/tour-history/__card-logos/tour-history__card-logos.css);
+@import url(../blocks/tour-history/__card-logos/_type/tour-history__card-logos_type_two.css);
+@import url(../blocks/tour-history/__card-logo/tour-history__card-logo.css);
+
+@import url(../blocks/email-block/email-block.css);
+@import url(../blocks/email-block/__foto/email-block__foto.css);
+@import url(../blocks/email-block/__wrapper/email-block__wrapper.css);
+@import url(../blocks/email-block/__title/email-block__title.css);
+@import url(../blocks/email-block/__subtitle/email-block__subtitle.css);
+@import url(../blocks/email-block/__email/email-block__email.css);
+
 
 /*горизонтальный скролл*/
 .html {

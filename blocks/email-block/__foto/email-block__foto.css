@@ -1,0 +1,7 @@
+.email-block__foto {
+  border-radius: 50px;
+  width: 371px;
+  height: 370px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}

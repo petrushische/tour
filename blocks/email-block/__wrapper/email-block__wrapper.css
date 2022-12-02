@@ -1,0 +1,7 @@
+.email-block__wrapper {
+  width: 371px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

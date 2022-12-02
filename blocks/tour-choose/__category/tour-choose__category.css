@@ -11,6 +11,11 @@
   margin-right: 30px;
 }
 
+.tour-choose__category:first-of-type {
+  color: #EFA501;
+  text-decoration: underline;
+}
+
 .tour-choose__category:nth-of-type(5) {
   margin-right: 0;
 }
