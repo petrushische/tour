@@ -5,3 +5,10 @@
   align-items: center;
   padding-top: 135px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .tour-history {
+    width: 1024px;
+  }
+}

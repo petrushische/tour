@@ -5,11 +5,15 @@
   font-weight: 400;
   font-size: 17px;
   line-height: 142%;
-  /* or 24px */
-
   letter-spacing: -0.01em;
-
-  /* Gray 300 */
-
   color: #A6A6A6;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .reviews__subtitle-card {
+    width: 295px;
+
+  }
 }

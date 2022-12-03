@@ -4,3 +4,11 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .tour-choose__main {
+    justify-content: center;
+    gap: 18px;
+  }
+}

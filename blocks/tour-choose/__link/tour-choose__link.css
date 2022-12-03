@@ -18,3 +18,11 @@
 .tour-choose__link:hover {
   color: gold;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .tour-choose__link {
+    width: 350px;
+    margin-top: 320px;
+  }
+}

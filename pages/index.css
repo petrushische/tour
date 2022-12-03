@@ -67,12 +67,16 @@
 @import url(../blocks/tour-foto/__line-four-image/tour-foto__line-four-image.css);
 @import url(../blocks/tour-foto/__foto/tour-foto__foto.css);
 @import url(../blocks/tour-foto/__foto/_type/tour-foto__foto_type_small.css);
+@import url(../blocks/tour-foto/__foto/_type/tour-foto__foto_type_1024.css);
 @import url(../blocks/tour-foto/__line-five-image/tour-foto__line-five-image.css);
 
 @import url(../blocks/tour-history/tour-history.css);
 @import url(../blocks/tour-history/__title/tour-history__title.css);
 @import url(../blocks/tour-history/__text/tour-history__text.css);
 @import url(../blocks/tour-history/__card/tour-history__card.css);
+@import url(../blocks/tour-history/__card/_type/tour-history__card_type_1.css);
+@import url(../blocks/tour-history/__card/_type/tour-history__card_type_2.css);
+@import url(../blocks/tour-history/__card/_type/tour-history__card_type_3.css);
 @import url(../blocks/tour-history/__card-title/tour-history__card-title.css);
 @import url(../blocks/tour-history/__card-text/tour-history__card-text.css);
 @import url(../blocks/tour-history/__card-list/tour-history__card-list.css);

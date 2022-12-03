@@ -2,3 +2,10 @@
   width: 1030px;
   font-size: 0;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .tour-assemble__wrapper-button {
+    width: 798px;
+  }
+}

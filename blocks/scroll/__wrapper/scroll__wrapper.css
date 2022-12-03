@@ -4,3 +4,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .scroll__wrapper {
+    width: 910px;
+  }
+}

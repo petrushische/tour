@@ -5,3 +5,11 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .tour-foto__line-five-image {
+    gap: 20px;
+
+  }
+}

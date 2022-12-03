@@ -14,3 +14,12 @@
 
   color: #FFFFFF;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .tour-choose__subtitle {
+    width: 350px;
+    height: 43px;
+  }
+}

@@ -11,3 +11,10 @@
   background: rgba(243, 239, 232, 0.6);
   backdrop-filter: blur(27px);
 }
+
+
+@media screen and (max-width: 1024px) {
+  .scroll {
+    width: 100%;
+  }
+}

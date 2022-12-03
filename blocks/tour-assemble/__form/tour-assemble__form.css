@@ -8,3 +8,11 @@
   background: #FFFFFF;
   border-radius: 50px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .tour-assemble__form {
+    width: 918px;
+
+  }
+}

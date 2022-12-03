@@ -8,3 +8,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .tour-choose__card {
+    width: 450px;
+    background-size: 100% 100%;
+  }
+}

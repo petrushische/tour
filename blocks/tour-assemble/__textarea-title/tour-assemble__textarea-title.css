@@ -9,3 +9,10 @@
   flex-direction: column;
 
 }
+
+@media screen and (max-width: 1024px) {
+  .tour-assemble__textarea-title {
+    width: 798px;
+
+  }
+}

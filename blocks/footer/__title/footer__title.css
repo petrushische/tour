@@ -7,6 +7,13 @@
   font-size: 20px;
   line-height: 142%;
   color: #A6A6A6;
+}
 
 
+
+@media screen and (max-width: 1024px) {
+  .footer__title {
+    margin-left: 53px;
+    margin-right: 277px;
+  }
 }

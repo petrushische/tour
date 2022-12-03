@@ -1,3 +1,10 @@
 .tour-foto__foto_type_small {
   width: 349.16px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .tour-foto__foto_type_small {
+    width: 231px;
+  }
+}

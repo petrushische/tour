@@ -9,3 +9,9 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 1024px) {
+  .tour-assemble__checkbox-title {
+    width: 798px;
+  }
+}

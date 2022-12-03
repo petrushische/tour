@@ -6,3 +6,12 @@
   height: 88px;
   background: #F4F0E9;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 1024px;
+
+  }
+}
