@@ -7,3 +7,11 @@
   text-align: center;
   color: #1B1F2B;
 }
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__title {
+    width: 318px;
+    font-size: 34px;
+    line-height: 112%;
+  }
+}

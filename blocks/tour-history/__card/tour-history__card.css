@@ -21,3 +21,12 @@
 
   }
 }
+
+@media screen and (max-width: 360px) {
+  .tour-history__card {
+    width: 318px;
+    height: 445px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+}

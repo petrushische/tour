@@ -16,3 +16,13 @@
   color: #A6A6A6;
 
 }
+
+@media screen and (max-width: 360px) {
+  .tour-foto__text {
+    width: 318px;
+    font-size: 16px;
+    line-height: 142%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}

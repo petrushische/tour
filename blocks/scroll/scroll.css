@@ -15,6 +15,12 @@
 
 @media screen and (max-width: 1024px) {
   .scroll {
-    width: 100%;
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .scroll {
+    width: 360px;
   }
 }

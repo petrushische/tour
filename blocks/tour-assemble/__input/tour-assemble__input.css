@@ -13,3 +13,11 @@
   color: #A6A6A6;
 
 }
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__input {
+    height: 43px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 360px) {
+  .scroll__menu_type_320 {
+    display: none;
+  }
+}

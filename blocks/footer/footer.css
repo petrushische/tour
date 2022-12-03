@@ -15,3 +15,11 @@
 
   }
 }
+
+@media screen and (max-width: 360px) {
+  .footer {
+    margin-top: 75px;
+    flex-direction: column;
+    width: 360px;
+  }
+}

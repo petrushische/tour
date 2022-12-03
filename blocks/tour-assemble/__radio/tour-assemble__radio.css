@@ -3,3 +3,10 @@
   height: 26px;
   margin-right: 11px;
 }
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__radio {
+    width: 20px;
+    height: 20px;
+  }
+}

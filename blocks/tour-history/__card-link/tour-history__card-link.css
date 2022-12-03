@@ -16,3 +16,12 @@
 .tour-history__card-link:hover {
   color: gold;
 }
+
+@media screen and (max-width: 360px) {
+  .tour-history__card-link {
+    margin-top: 64.5px;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}

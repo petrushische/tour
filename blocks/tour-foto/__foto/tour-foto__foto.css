@@ -11,3 +11,11 @@
     width: 314.67px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .tour-foto__foto {
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+  }
+}

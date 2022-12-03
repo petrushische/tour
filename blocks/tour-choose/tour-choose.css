@@ -14,3 +14,11 @@
 
   }
 }
+
+@media screen and (max-width: 360px) {
+  .tour-choose {
+    width: 360px;
+    padding-top: 75px;
+
+  }
+}

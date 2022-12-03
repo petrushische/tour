@@ -20,6 +20,12 @@
 @import url(../blocks/tour-choose/__category/tour-choose__category.css);
 @import url(../blocks/tour-choose/__main/tour-choose__main.css);
 @import url(../blocks/tour-choose/__card/tour-choose__card.css);
+@import url(../blocks/tour-choose/__card/_type/tour-choose__card-_type_1.css);
+@import url(../blocks/tour-choose/__card/_type/tour-choose__card-_type_2.css);
+@import url(../blocks/tour-choose/__card/_type/tour-choose__card-_type_3.css);
+@import url(../blocks/tour-choose/__card/_type/tour-choose__card-_type_4.css);
+@import url(../blocks/tour-choose/__card/_type/tour-choose__card-_type_5.css);
+@import url(../blocks/tour-choose/__card/_type/tour-choose__card-_type_6.css);
 @import url(../blocks/tour-choose/__subtitle/tour-choose__subtitle.css);
 @import url(../blocks/tour-choose/__price/tour-choose__price.css);
 @import url(../blocks/tour-choose/__link/tour-choose__link.css);
@@ -63,11 +69,11 @@
 @import url(../blocks/tour-foto/tour-foto.css);
 @import url(../blocks/tour-foto/__title/tour-foto__title.css);
 @import url(../blocks/tour-foto/__text/tour-foto__text.css);
-
 @import url(../blocks/tour-foto/__line-four-image/tour-foto__line-four-image.css);
 @import url(../blocks/tour-foto/__foto/tour-foto__foto.css);
 @import url(../blocks/tour-foto/__foto/_type/tour-foto__foto_type_small.css);
 @import url(../blocks/tour-foto/__foto/_type/tour-foto__foto_type_1024.css);
+@import url(../blocks/tour-foto/__foto/_type/tour-foto__foto_type_360.css);
 @import url(../blocks/tour-foto/__line-five-image/tour-foto__line-five-image.css);
 
 @import url(../blocks/tour-history/tour-history.css);
@@ -84,6 +90,7 @@
 @import url(../blocks/tour-history/__card-link/tour-history__card-link.css);
 @import url(../blocks/tour-history/__card-logos/tour-history__card-logos.css);
 @import url(../blocks/tour-history/__card-logos/_type/tour-history__card-logos_type_two.css);
+@import url(../blocks/tour-history/__card-logos/_type/tour-history__card-logos_type_360.css);
 @import url(../blocks/tour-history/__card-logo/tour-history__card-logo.css);
 
 @import url(../blocks/email-block/email-block.css);
@@ -102,6 +109,7 @@
 @import url(../blocks/scroll/scroll.css);
 @import url(../blocks/scroll/__logo/scroll__logo.css);
 @import url(../blocks/scroll/__menu/scroll__menu.css);
+@import url(../blocks/scroll/__menu/_type/scroll__menu_type_320.css);
 @import url(../blocks/scroll/__link/scroll__link.css);
 @import url(../blocks/scroll/__number/scroll__number.css);
 @import url(../blocks/scroll/__wrapper/scroll__wrapper.css);

@@ -13,3 +13,12 @@
 
   }
 }
+
+@media screen and (max-width: 360px) {
+  .tour-foto__line-five-image {
+    gap: 10px;
+    height: 110px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+}

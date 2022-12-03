@@ -2,3 +2,11 @@
   width: 735px;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 360px) {
+  .tour-choose__head {
+    text-align: center;
+    width: 290px;
+    margin-bottom: 50px;
+  }
+}

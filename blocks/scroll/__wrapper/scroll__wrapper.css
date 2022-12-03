@@ -11,3 +11,9 @@
     width: 910px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .scroll__wrapper {
+    width: 320px;
+  }
+}

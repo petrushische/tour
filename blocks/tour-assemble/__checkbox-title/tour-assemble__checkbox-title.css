@@ -15,3 +15,13 @@
     width: 798px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__checkbox-title {
+    width: 278px;
+    height: 69px;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}

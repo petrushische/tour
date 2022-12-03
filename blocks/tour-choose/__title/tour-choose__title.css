@@ -9,3 +9,13 @@
   color: #1B1F2B;
 
 }
+
+
+@media screen and (max-width: 360px) {
+  .tour-choose__title {
+
+    font-size: 34px;
+    line-height: 112%;
+
+  }
+}

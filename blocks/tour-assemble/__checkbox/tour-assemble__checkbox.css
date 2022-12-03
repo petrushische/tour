@@ -3,3 +3,10 @@
   height: 26px;
   margin-right: 16px;
 }
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__checkbox {
+    width: 20px;
+    height: 20px;
+  }
+}

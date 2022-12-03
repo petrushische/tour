@@ -11,3 +11,10 @@
     gap: 20px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .tour-foto__line-four-image {
+    gap: 18px;
+    height: 110px;
+  }
+}

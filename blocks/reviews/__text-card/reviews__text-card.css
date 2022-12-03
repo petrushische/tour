@@ -17,3 +17,12 @@
 
   }
 }
+
+@media screen and (max-width: 360px) {
+  .reviews__text-card {
+    margin-top: 20px;
+    width: 285px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}

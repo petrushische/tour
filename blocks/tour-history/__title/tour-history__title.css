@@ -8,3 +8,11 @@
   color: #1B1F2B;
 
 }
+
+@media screen and (max-width: 360px) {
+  .tour-history__title {
+    width: 319px;
+    font-size: 34px;
+    line-height: 112%;
+  }
+}

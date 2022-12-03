@@ -3,3 +3,13 @@
   padding-top: 135px;
   display: flex;
 }
+
+
+@media screen and (max-width: 360px) {
+  .email-block {
+    width: 360px;
+    padding-top: 75px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

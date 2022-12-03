@@ -16,3 +16,11 @@
     background-size: 100% 100%;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .tour-choose__card {
+    width: 318px;
+    height: 318px;
+
+  }
+}

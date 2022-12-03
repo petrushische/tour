@@ -8,3 +8,10 @@
   line-height: 142%;
   color: #1B1F2B;
 }
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__radio-title {
+    font-size: 16px;
+    line-height: 142%;
+  }
+}

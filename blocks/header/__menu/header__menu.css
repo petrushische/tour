@@ -3,3 +3,10 @@
   gap: 50px;
   list-style: none;
 }
+
+@media screen and (max-width: 360px) {
+  .header__menu {
+    display: none;
+
+  }
+}

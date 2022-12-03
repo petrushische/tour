@@ -1,0 +1,19 @@
+.tour-choose__card_type_4 {
+  background-image: linear-gradient(360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%),
+    url(../../../../images/cardtour4.png);
+}
+
+@media screen and (max-width: 360px) {
+  .tour-choose__card_type_4 {
+    background-image: linear-gradient(360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%),
+      url(../../../../images/cardtour4-360.png);
+  }
+
+
+}

@@ -23,3 +23,13 @@
 
   }
 }
+
+@media screen and (max-width: 360px) {
+  .tour-choose__price {
+    margin-top: 13px;
+    width: 268px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}

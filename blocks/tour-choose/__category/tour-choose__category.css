@@ -25,3 +25,22 @@
   color: #EFA501;
   text-decoration: underline;
 }
+
+
+@media screen and (max-width: 360px) {
+  .tour-choose__category {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 142%;
+    margin-right: 10px;
+  }
+
+  .tour-choose__category:nth-of-type(4) {
+    margin-top: 10px;
+  }
+
+  .tour-choose__category:nth-of-type(5) {
+    margin-top: 10px;
+  }
+}

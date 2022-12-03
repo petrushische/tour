@@ -18,3 +18,12 @@
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/header-1024.png);
   }
 }
+
+@media screen and (max-width: 360px) {
+  .header {
+    width: 360px;
+    height: 488px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/header-360.png);
+    background-size: cover;
+  }
+}

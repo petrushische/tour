@@ -5,3 +5,12 @@
   object-fit: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 360px) {
+  .email-block__foto {
+    width: 130px;
+    height: 133px;
+    border-radius: 20px;
+
+  }
+}

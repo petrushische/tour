@@ -16,3 +16,13 @@
 
   }
 }
+
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__form {
+    width: 318px;
+    column-gap: 0;
+    row-gap: 0;
+    border-radius: 30px;
+  }
+}

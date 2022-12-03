@@ -9,3 +9,11 @@
   color: #1B1F2B;
 
 }
+
+@media screen and (max-width: 360px) {
+  .reviews__title {
+    font-size: 34px;
+    line-height: 112%;
+    width: 318px;
+  }
+}

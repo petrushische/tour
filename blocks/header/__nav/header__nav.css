@@ -12,3 +12,11 @@
 
   }
 }
+
+@media screen and (max-width: 360px) {
+  .header__nav {
+    width: 320px;
+    padding-top: 33px;
+
+  }
+}

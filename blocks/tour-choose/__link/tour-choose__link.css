@@ -26,3 +26,13 @@
     margin-top: 320px;
   }
 }
+
+
+@media screen and (max-width: 360px) {
+  .tour-choose__link {
+    width: 268px;
+    margin-top: 179.5px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}
