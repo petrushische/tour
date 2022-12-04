@@ -1,3 +1,5 @@
-.tour-history__card-logos_type_360 {
-  display: none;
+@media screen and (max-width: 360px) {
+  .tour-history__card-logos_type_360 {
+    display: none;
+  }
 }

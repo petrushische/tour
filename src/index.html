@@ -10,14 +10,14 @@
     />
     <meta name="author" content="Пётр Румянцев" />
     <meta name="keywords" content="Путешествия" />
-    <link rel="stylesheet" href="pages/index.css" />
+    
     <title>YourTour</title>
   </head>
   <body>
     <div class="page">
       <div class="header">
         <div class="header__nav">
-          <img src="images/YourTour.svg" alt="Логотип" class="header__logo" />
+          <img src="<%=require('../images/YourTour.svg')%>" alt="Логотип" class="header__logo" />
           <nav class="header__menu">
             <li><a href="javascript:void(0);" class="header__link">Туры</a></li>
             <li><a href="javascript:void(0);" class="header__link">Создать тур</a></li>
@@ -240,7 +240,7 @@
               <h3 class="reviews__title-card">Мария</h3>
               <p class="reviews__subtitle-card">Тур: Вдали от дома</p>
               <img
-                src="images/image-avtor-1.png"
+                src="<%=require('../images/image-avtor-1.png')%>"
                 alt="Фото автора"
                 class="reviews__foto-card"
               />
@@ -264,7 +264,7 @@
               <h3 class="reviews__title-card">Павел</h3>
               <p class="reviews__subtitle-card">Тур: Путешествие в горы</p>
               <img
-                src="images/review photo-2.png"
+                src="<%=require('../images/review photo-2.png')%>"
                 alt="Фото автора"
                 class="reviews__foto-card"
               />
@@ -279,44 +279,44 @@
           кадров
         </p>
         <div class="tour-foto__line-four-image">
-          <img src="images/photo1.png" alt="Самолёт" class="tour-foto__foto" />
-          <img src="images/photo2.png" alt="Палатка" class="tour-foto__foto tour-foto__foto_type_1024" />
-          <img src="images/photo3.png" alt="Каньон" class="tour-foto__foto tour-foto__foto_type_360" />
-          <img src="images/photo4.png" alt="Дорога" class="tour-foto__foto" />
+          <img src="<%=require('../images/photo1.png')%>" alt="Самолёт" class="tour-foto__foto" />
+          <img src="<%=require('../images/photo2.png')%>" alt="Палатка" class="tour-foto__foto tour-foto__foto_type_1024" />
+          <img src="<%=require('../images/photo3.png')%>" alt="Каньон" class="tour-foto__foto tour-foto__foto_type_360" />
+          <img src="<%=require('../images/photo4.png')%>" alt="Дорога" class="tour-foto__foto" />
         </div>
         <div class="tour-foto__line-five-image">
           <img
-            src="images/photo5.png"
+            src="<%=require('../images/photo5.png')%>"
             alt="Обрыв"
             class="tour-foto__foto tour-foto__foto_type_small"
           />
           <img
-            src="images/photo6.png"
+            src="<%=require('../images/photo6.png')%>"
             alt="Карта"
             class="tour-foto__foto tour-foto__foto_type_small tour-foto__foto_type_360"
           />
           <img
-            src="images/photo7.png"
+            src="<%=require('../images/photo7.png')%>"
             alt="Мост"
             class="tour-foto__foto tour-foto__foto_type_small tour-foto__foto_type_1024"
           />
           <img
-            src="images/photo8.png"
+            src="<%=require('../images/photo8.png')%>"
             alt="Машина и палатка"
             class="tour-foto__foto tour-foto__foto_type_small"
           />
           <img
-            src="images/photo13.png"
+            src="<%=require('../images/photo13.png')%>"
             alt="Улица"
             class="tour-foto__foto tour-foto__foto_type_small"
           />
         </div>
         <div class="tour-foto__line-four-image">
-          <img src="images/photo9.png" alt="Улица" class="tour-foto__foto" />
-          <img src="images/photo10.png" alt="Озеро" class="tour-foto__foto" />
-          <img src="images/photo11.png" alt="Город" class="tour-foto__foto tour-foto__foto_type_360" />
+          <img src="<%=require('../images/photo9.png')%>" alt="Улица" class="tour-foto__foto" />
+          <img src="<%=require('../images/photo10.png')%>" alt="Озеро" class="tour-foto__foto" />
+          <img src="<%=require('../images/photo11.png')%>" alt="Город" class="tour-foto__foto tour-foto__foto_type_360" />
           <img
-            src="images/photo12.png"
+            src="<%=require('../images/photo12.png')%>"
             alt="Плавание"
             class="tour-foto__foto tour-foto__foto_type_1024"
           />
@@ -331,7 +331,7 @@
         <div
           class="tour-history__card tour-history__card_type_1"
         >
-          <h3 class="tour-history__card-title">Автостопом<br>в Стамбул</h3>
+          <h3 class="tour-history__card-title">Автостопом в Стамбул</h3>
           <div class="tour-history__card-text">
             Идейные соображения высшего порядка, а также рамки и место обучения
             кадров обеспечивает широкому кругу (специалистов) участие в
@@ -354,7 +354,7 @@
         <div
           class="tour-history__card tour-history__card_type_2"
         >
-          <h3 class="tour-history__card-title">Автостопом<br>в Стамбул</h3>
+          <h3 class="tour-history__card-title">Автостопом в Стамбул</h3>
           <div class="tour-history__card-text">
             Идейные соображения высшего порядка, а также рамки и место обучения
             кадров обеспечивает широкому кругу (специалистов) участие в
@@ -367,21 +367,18 @@
             class="tour-history__card-logos tour-history__card-logos_type_two tour-history__card-logos_type_360"
           >
             <a href="javascript:void(0);" class="tour-history__card-logo">instagram</a>
-            <a href="javascript:void(0);" class="tour-history__card-logo">ВКонтакте</l>
+            <a href="javascript:void(0);" class="tour-history__card-logo">ВКонтакте</a>
           </div>
         </div>
-        <div
-          class="tour-history__card tour-history__card_type_3"
-        >
-          <h3 class="tour-history__card-title">Автостопом<br>в Стамбул</h3>
+        <div class="tour-history__card tour-history__card_type_3">
+          <h3 class="tour-history__card-title">Автостопом в Стамбул</h3>
           <div class="tour-history__card-text">
             Идейные соображения высшего порядка, а также рамки и место обучения
             кадров обеспечивает широкому кругу (специалистов) участие в
             формировании новых предложений.
           </div>
           <a href="javascript:void(0);" class="tour-history__card-link"
-            >Подробнее &rarr;</a
-          >
+            >Подробнее &rarr;</a>
           <div class="tour-history__card-logos tour-history__card-logos_type_360">
             <a href="javascript:void(0);" class="tour-history__card-logo">instagram</a>
             <a href="javascript:void(0);" class="tour-history__card-logo">facebook</a>
@@ -391,7 +388,7 @@
       </section>
       <section class="email-block">
         <img
-          src="images/email-block.png"
+          src="<%=require('../images/email-block.png')%>"
           alt="Поляна и домик"
           class="email-block__foto"
         />
@@ -410,15 +407,15 @@
         <h2 class="footer__title">Наши социальные сети</h2>
         <nav class="footer__nav">
           <li class="footer__li">
-            <img src="images/inst.svg" alt="Лого" style="margin-left: 8px;"/>
+            <img src="<%=require('../images/inst.svg')%>" alt="Лого" style="margin-left: 8px;"/>
             <a href="javascript:void(0);" class="footer__lnk"> instagram </a>
           </li>
           <li class="footer__li">
-            <img src="images/facebook.svg" alt="Лого" style="margin-left: 8px;"/>
+            <img src="<%=require('../images/facebook.svg')%>" alt="Лого" style="margin-left: 8px;"/>
             <a href="javascript:void(0);" class="footer__lnk"> facebook </a>
           </li>
           <li class="footer__li">
-            <img src="images/vk.svg" alt="Лого" style="margin-left: 8px;"/>
+            <img src="<%=require('../images/vk.svg')%>" alt="Лого" style="margin-left: 8px;"/>
             <a href="javascript:void(0);" class="footer__lnk"> vkontakte <a>
           </li>
         </nav>
@@ -426,7 +423,7 @@
     </div>
     <div class="scroll">
       <div class="scroll__wrapper">
-        <img src="images/YourTour-black.svg" alt="Логотип" class="scroll__logo" />
+        <img src="<%=require('../images/YourTour-black.svg')%>" alt="Логотип" class="scroll__logo" />
           <nav class="scroll__menu scroll__menu_type_320">
             <li><a href="javascript:void(0);" class="scroll__link">Туры</a></li>
             <li><a href="javascript:void(0);" class="scroll__link">Создать тур</a></li>
@@ -436,6 +433,6 @@
           <p class="scroll__number">+7 999 999 99 99</p>
       </div>
     </div>
-    <script src="index.js"></script>
+    
   </body>
 </html>
