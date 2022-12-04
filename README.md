@@ -7,4 +7,4 @@
  ## Технологии  
  HTML CSS JavaScript Webpack  
 
- GH Pages: 
+ GH Pages: https://petrushische.github.io/tour/
