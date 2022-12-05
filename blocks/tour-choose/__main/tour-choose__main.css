@@ -5,6 +5,12 @@
   gap: 30px;
 }
 
+@media screen and (max-width: 1250px) {
+  .tour-choose__main {
+    gap: 15px;
+  }
+}
+
 
 @media screen and (max-width: 1024px) {
   .tour-choose__main {

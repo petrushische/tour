@@ -7,6 +7,12 @@
 
 }
 
+@media screen and (max-width: 1250px) {
+  .tour-foto__line-five-image {
+    gap: 15px
+  }
+}
+
 
 @media screen and (max-width: 1024px) {
   .tour-foto__line-five-image {

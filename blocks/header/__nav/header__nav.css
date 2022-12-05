@@ -6,6 +6,13 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1250px) {
+  .header__nav {
+    width: 1024px;
+
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header__nav {
     width: 910px;

@@ -10,19 +10,33 @@
     />
     <meta name="author" content="Пётр Румянцев" />
     <meta name="keywords" content="Путешествия" />
-    <link rel="shortcut icon" href="<%=require('../images/YourTour.svg')%>" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="<%=require('../images/YourTour.svg')%>"
+      type="image/x-icon"
+    />
     <title>YourTour</title>
   </head>
   <body class="body">
     <div class="page">
       <div class="header">
         <div class="header__nav">
-          <img src="<%=require('../images/YourTour.svg')%>" alt="Логотип" class="header__logo" />
+          <img
+            src="<%=require('../images/YourTour.svg')%>"
+            alt="Логотип"
+            class="header__logo"
+          />
           <nav class="header__menu">
             <li><a href="javascript:void(0);" class="header__link">Туры</a></li>
-            <li><a href="javascript:void(0);" class="header__link">Создать тур</a></li>
-            <li><a href="javascript:void(0);" class="header__link">Отзывы</a></li>
-            <li><a href="javascript:void(0);" class="header__link">Истории</a></li>
+            <li>
+              <a href="javascript:void(0);" class="header__link">Создать тур</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="header__link">Отзывы</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="header__link">Истории</a>
+            </li>
           </nav>
           <p class="header__number">+7 999 999 99 99</p>
         </div>
@@ -49,59 +63,42 @@
           >
         </div>
         <div class="tour-choose__main">
-          <div
-            class="tour-choose__card tour-choose__card_type_1"
-          >
+          <div class="tour-choose__card tour-choose__card_type_1">
             <h3 class="tour-choose__subtitle">Путешествие в горы</h3>
             <p class="tour-choose__price">от 80 000 руб</p>
             <a href="javascript:void(0);" class="tour-choose__link"
               >Подробнее &rarr;</a
             >
           </div>
-          <div
-            class="tour-choose__card tour-choose__card_type_2"
-           
-          >
+          <div class="tour-choose__card tour-choose__card_type_2">
             <h3 class="tour-choose__subtitle">Путешествие в горы</h3>
             <p class="tour-choose__price">от 80 000 руб</p>
             <a href="javascript:void(0);" class="tour-choose__link"
               >Подробнее &rarr;</a
             >
           </div>
-          <div
-            class="tour-choose__card tour-choose__card_type_3"
-          
-          >
+          <div class="tour-choose__card tour-choose__card_type_3">
             <h3 class="tour-choose__subtitle">Путешествие в горы</h3>
             <p class="tour-choose__price">от 80 000 руб</p>
             <a href="javascript:void(0);" class="tour-choose__link"
               >Подробнее &rarr;</a
             >
           </div>
-          <div
-            class="tour-choose__card tour-choose__card_type_4"
-            
-          >
+          <div class="tour-choose__card tour-choose__card_type_4">
             <h3 class="tour-choose__subtitle">Путешествие в горы</h3>
             <p class="tour-choose__price">от 80 000 руб</p>
             <a href="javascript:void(0);" class="tour-choose__link"
               >Подробнее &rarr;</a
             >
           </div>
-          <div
-            class="tour-choose__card tour-choose__card_type_5"
-           
-          >
+          <div class="tour-choose__card tour-choose__card_type_5">
             <h3 class="tour-choose__subtitle">Путешествие в горы</h3>
             <p class="tour-choose__price">от 80 000 руб</p>
             <a href="javascript:void(0);" class="tour-choose__link"
               >Подробнее &rarr;</a
             >
           </div>
-          <div
-            class="tour-choose__card tour-choose__card_type_6"
-          
-          >
+          <div class="tour-choose__card tour-choose__card_type_6">
             <h3 class="tour-choose__subtitle">Путешествие в горы</h3>
             <p class="tour-choose__price">от 80 000 руб</p>
             <a href="javascript:void(0);" class="tour-choose__link"
@@ -132,9 +129,8 @@
               name="direction"
               id="direction"
               class="tour-assemble__input"
-              
             >
-              <option value="" disabled selected hidden >
+              <option value="" disabled selected hidden>
                 Куда хотите ехать
               </option>
               <option value="1">На кудыкину гору</option>
@@ -280,10 +276,26 @@
           кадров
         </p>
         <div class="tour-foto__line-four-image">
-          <img src="<%=require('../images/photo1.png')%>" alt="Самолёт" class="tour-foto__foto" />
-          <img src="<%=require('../images/photo2.png')%>" alt="Палатка" class="tour-foto__foto tour-foto__foto_type_1024" />
-          <img src="<%=require('../images/photo3.png')%>" alt="Каньон" class="tour-foto__foto tour-foto__foto_type_360" />
-          <img src="<%=require('../images/photo4.png')%>" alt="Дорога" class="tour-foto__foto" />
+          <img
+            src="<%=require('../images/photo1.png')%>"
+            alt="Самолёт"
+            class="tour-foto__foto"
+          />
+          <img
+            src="<%=require('../images/photo2.png')%>"
+            alt="Палатка"
+            class="tour-foto__foto tour-foto__foto_type_1024"
+          />
+          <img
+            src="<%=require('../images/photo3.png')%>"
+            alt="Каньон"
+            class="tour-foto__foto tour-foto__foto_type_360"
+          />
+          <img
+            src="<%=require('../images/photo4.png')%>"
+            alt="Дорога"
+            class="tour-foto__foto"
+          />
         </div>
         <div class="tour-foto__line-five-image">
           <img
@@ -313,9 +325,21 @@
           />
         </div>
         <div class="tour-foto__line-four-image">
-          <img src="<%=require('../images/photo9.png')%>" alt="Улица" class="tour-foto__foto" />
-          <img src="<%=require('../images/photo10.png')%>" alt="Озеро" class="tour-foto__foto" />
-          <img src="<%=require('../images/photo11.png')%>" alt="Город" class="tour-foto__foto tour-foto__foto_type_360" />
+          <img
+            src="<%=require('../images/photo9.png')%>"
+            alt="Улица"
+            class="tour-foto__foto"
+          />
+          <img
+            src="<%=require('../images/photo10.png')%>"
+            alt="Озеро"
+            class="tour-foto__foto"
+          />
+          <img
+            src="<%=require('../images/photo11.png')%>"
+            alt="Город"
+            class="tour-foto__foto tour-foto__foto_type_360"
+          />
           <img
             src="<%=require('../images/photo12.png')%>"
             alt="Плавание"
@@ -329,9 +353,7 @@
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
-        <div
-          class="tour-history__card tour-history__card_type_1"
-        >
+        <div class="tour-history__card tour-history__card_type_1">
           <h3 class="tour-history__card-title">Автостопом в Стамбул</h3>
           <div class="tour-history__card-text">
             Идейные соображения высшего порядка, а также рамки и место обучения
@@ -346,15 +368,21 @@
           <a href="javascript:void(0);" class="tour-history__card-link"
             >Подробнее &rarr;</a
           >
-          <div class="tour-history__card-logos tour-history__card-logos_type_360">
-            <a href="javascript:void(0);" class="tour-history__card-logo">instagram</a>
-            <a href="javascript:void(0);" class="tour-history__card-logo">facebook</a>
-            <a href="javascript:void(0);" class="tour-history__card-logo">YouTube</a>
+          <div
+            class="tour-history__card-logos tour-history__card-logos_type_360"
+          >
+            <a href="javascript:void(0);" class="tour-history__card-logo"
+              >instagram</a
+            >
+            <a href="javascript:void(0);" class="tour-history__card-logo"
+              >facebook</a
+            >
+            <a href="javascript:void(0);" class="tour-history__card-logo"
+              >YouTube</a
+            >
           </div>
         </div>
-        <div
-          class="tour-history__card tour-history__card_type_2"
-        >
+        <div class="tour-history__card tour-history__card_type_2">
           <h3 class="tour-history__card-title">Автостопом в Стамбул</h3>
           <div class="tour-history__card-text">
             Идейные соображения высшего порядка, а также рамки и место обучения
@@ -367,8 +395,12 @@
           <div
             class="tour-history__card-logos tour-history__card-logos_type_two tour-history__card-logos_type_360"
           >
-            <a href="javascript:void(0);" class="tour-history__card-logo">instagram</a>
-            <a href="javascript:void(0);" class="tour-history__card-logo">ВКонтакте</a>
+            <a href="javascript:void(0);" class="tour-history__card-logo"
+              >instagram</a
+            >
+            <a href="javascript:void(0);" class="tour-history__card-logo"
+              >ВКонтакте</a
+            >
           </div>
         </div>
         <div class="tour-history__card tour-history__card_type_3">
@@ -379,11 +411,20 @@
             формировании новых предложений.
           </div>
           <a href="javascript:void(0);" class="tour-history__card-link"
-            >Подробнее &rarr;</a>
-          <div class="tour-history__card-logos tour-history__card-logos_type_360">
-            <a href="javascript:void(0);" class="tour-history__card-logo">instagram</a>
-            <a href="javascript:void(0);" class="tour-history__card-logo">facebook</a>
-            <a href="javascript:void(0);" class="tour-history__card-logo">ВКонтакте</a>
+            >Подробнее &rarr;</a
+          >
+          <div
+            class="tour-history__card-logos tour-history__card-logos_type_360"
+          >
+            <a href="javascript:void(0);" class="tour-history__card-logo"
+              >instagram</a
+            >
+            <a href="javascript:void(0);" class="tour-history__card-logo"
+              >facebook</a
+            >
+            <a href="javascript:void(0);" class="tour-history__card-logo"
+              >ВКонтакте</a
+            >
           </div>
         </div>
       </section>
@@ -408,31 +449,51 @@
         <h2 class="footer__title">Наши социальные сети</h2>
         <nav class="footer__nav">
           <li class="footer__li">
-            <img src="<%=require('../images/inst.svg')%>" alt="Лого" style="margin-left: 8px;"/>
+            <img
+              src="<%=require('../images/inst.svg')%>"
+              alt="Лого"
+              style="margin-left: 8px"
+            />
             <a href="javascript:void(0);" class="footer__lnk"> instagram </a>
           </li>
           <li class="footer__li">
-            <img src="<%=require('../images/facebook.svg')%>" alt="Лого" style="margin-left: 8px;"/>
+            <img
+              src="<%=require('../images/facebook.svg')%>"
+              alt="Лого"
+              style="margin-left: 8px"
+            />
             <a href="javascript:void(0);" class="footer__lnk"> facebook </a>
           </li>
           <li class="footer__li">
-            <img src="<%=require('../images/vk.svg')%>" alt="Лого" style="margin-left: 8px;"/>
-            <a href="javascript:void(0);" class="footer__lnk"> vkontakte <a>
+            <img
+              src="<%=require('../images/vk.svg')%>"
+              alt="Лого"
+              style="margin-left: 8px"
+            />
+            <a href="javascript:void(0);" class="footer__lnk"> vkontakte </a>
           </li>
         </nav>
       </footer>
-      <div class="scroll">
-        <div class="scroll__wrapper">
-          <img src="<%=require('../images/YourTour-black.svg')%>" alt="Логотип" class="scroll__logo" />
-            <nav class="scroll__menu scroll__menu_type_320">
-              <li><a href="javascript:void(0);" class="scroll__link">Туры</a></li>
-              <li><a href="javascript:void(0);" class="scroll__link">Создать тур</a></li>
-              <li><a href="javascript:void(0);" class="scroll__link">Отзывы</a></li>
-              <li><a href="javascript:void(0);" class="scroll__link">Истории</a></li>
-            </nav>
-            <p class="scroll__number">+7 999 999 99 99</p>
-        </div>
-      </div>
     </div>
+    <!--<div class="scroll">
+      <div class="scroll__wrapper">
+        <img
+          src="<%=require('../images/YourTour-black.svg')%>"
+          alt="Логотип"
+          class="scroll__logo"
+        />
+        <nav class="scroll__menu scroll__menu_type_320">
+          <li><a href="javascript:void(0);" class="scroll__link">Туры</a></li>
+          <li>
+            <a href="javascript:void(0);" class="scroll__link">Создать тур</a>
+          </li>
+          <li><a href="javascript:void(0);" class="scroll__link">Отзывы</a></li>
+          <li>
+            <a href="javascript:void(0);" class="scroll__link">Истории</a>
+          </li>
+        </nav>
+        <p class="scroll__number">+7 999 999 99 99</p>
+      </div>
+    </div>-->
   </body>
 </html>

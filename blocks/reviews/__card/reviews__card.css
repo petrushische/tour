@@ -13,6 +13,17 @@
   margin-left: 30px;
 }
 
+@media screen and (max-width: 1250px) {
+  .reviews__card {
+    width: 520px;
+    height: 841px;
+  }
+
+  .reviews__card:nth-of-type(2) {
+    margin-left: 18px;
+  }
+}
+
 
 @media screen and (max-width: 1024px) {
   .reviews__card {

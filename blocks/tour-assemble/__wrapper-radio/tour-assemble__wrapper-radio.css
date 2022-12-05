@@ -1,7 +1,13 @@
 .tour-assemble__wrapper-radio {
-  width: 1030px;
+  max-width: 1030px;
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1250px) {
+  .tour-assemble__wrapper-radio {
+    width: 930px;
+  }
 }
 
 @media screen and (max-width: 1024px) {

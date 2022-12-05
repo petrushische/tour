@@ -5,6 +5,13 @@
   font-size: 0;
 }
 
+@media screen and (max-width: 1250px) {
+  .reviews__wrapper {
+    width: 100%;
+
+  }
+}
+
 
 @media screen and (max-width: 1024px) {
   .reviews__wrapper {

@@ -9,6 +9,12 @@
   color: #1B1F2B;
 }
 
+@media screen and (max-width: 1250px) {
+  .reviews__title-card {
+    width: 390px;
+  }
+}
+
 
 @media screen and (max-width: 1024px) {
   .reviews__title-card {

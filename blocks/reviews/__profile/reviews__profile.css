@@ -9,6 +9,13 @@
   justify-content: flex-end;
 }
 
+@media screen and (max-width: 1250px) {
+  .reviews__profile {
+    width: 470px;
+
+  }
+}
+
 
 @media screen and (max-width: 1024px) {
   .reviews__profile {

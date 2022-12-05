@@ -2,6 +2,17 @@
   width: 348px;
 }
 
+@media screen and (max-width: 1870px) {
+  .tour-foto__foto_type_small {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .tour-foto__foto_type_small {
+    width: 244px;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .tour-foto__foto_type_small {

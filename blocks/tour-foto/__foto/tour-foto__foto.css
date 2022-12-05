@@ -4,6 +4,18 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 1870px) {
+  .tour-foto__foto {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .tour-foto__foto {
+    width: 330px;
+  }
+}
+
 
 
 @media screen and (max-width: 1024px) {

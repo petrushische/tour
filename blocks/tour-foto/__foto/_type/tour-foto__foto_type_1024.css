@@ -1,3 +1,9 @@
+@media screen and (max-width: 1870px) {
+  .tour-foto__foto_type_1024 {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .tour-foto__foto_type_1024 {
     display: none;

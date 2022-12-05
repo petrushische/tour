@@ -1,9 +1,15 @@
 .reviews {
   padding-top: 135px;
-  width: 1170px;
+  max-width: 1170px;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1250px) {
+  .reviews {
+    width: 1024px;
+  }
 }
 
 

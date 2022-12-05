@@ -15,6 +15,12 @@
   scale: 1.1;
 }
 
+@media screen and (max-width: 1250px) {
+  .tour-choose__card {
+    width: 330px;
+  }
+}
+
 
 @media screen and (max-width: 1024px) {
   .tour-choose__card {

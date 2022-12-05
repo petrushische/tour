@@ -1,3 +1,10 @@
 .reviews__text-card_type_margin {
   margin-top: 30px
 }
+
+@media screen and (max-width: 1250px) {
+  .reviews__text-card_type_margin {
+    margin-top: 0;
+
+  }
+}
