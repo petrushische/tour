@@ -9,7 +9,7 @@
   color: #A6A6A6;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .email-block__subtitle {
     width: 291px;
     font-size: 16px;

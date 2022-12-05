@@ -36,7 +36,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .reviews__card {
     border-radius: 20px;
     width: 318px;

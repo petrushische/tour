@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-choose__card {
     width: 318px;
     height: 318px;

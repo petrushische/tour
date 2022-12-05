@@ -6,10 +6,10 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .email-block__foto {
-    width: 130px;
-    height: 133px;
+    width: 150px;
+    height: 153px;
     border-radius: 20px;
 
   }

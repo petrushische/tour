@@ -23,8 +23,7 @@
   }
 }
 
-
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-assemble__form {
     width: 318px;
     column-gap: 0;

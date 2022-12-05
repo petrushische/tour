@@ -6,7 +6,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-history__card-li {
     font-size: 16px;
     line-height: 142%;

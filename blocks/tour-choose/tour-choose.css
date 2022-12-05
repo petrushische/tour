@@ -22,9 +22,9 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-choose {
-    width: 360px;
+    width: 100%;
     padding-top: 75px;
 
   }

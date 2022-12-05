@@ -5,9 +5,10 @@
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .email-block {
-    width: 360px;
+    max-width: 500px;
+    width: 100%;
     padding-top: 75px;
     flex-direction: column;
     align-items: center;

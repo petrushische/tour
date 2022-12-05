@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-assemble__textarea-title {
     margin-top: 30px;
     width: 278px;

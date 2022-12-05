@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .reviews__text-card {
     margin-top: 20px;
     width: 285px;

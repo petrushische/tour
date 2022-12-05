@@ -17,7 +17,7 @@
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-foto__text {
     width: 318px;
     font-size: 16px;

@@ -16,7 +16,7 @@
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-history__card-title {
     width: 230px;
     font-size: 23px;

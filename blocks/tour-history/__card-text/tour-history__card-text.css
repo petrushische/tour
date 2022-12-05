@@ -10,7 +10,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-history__card-text {
     width: 263px;
     height: 230px;

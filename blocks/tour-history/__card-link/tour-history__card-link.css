@@ -17,6 +17,15 @@
   color: gold;
 }
 
+@media screen and (max-width: 500px) {
+  .tour-history__card-link {
+    margin-top: 40.5px;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .tour-history__card-link {
     margin-top: 64.5px;

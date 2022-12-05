@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1250px) {
   .header__nav {
-    width: 1024px;
+    width: 1000px;
 
   }
 }
@@ -16,6 +16,14 @@
 @media screen and (max-width: 1024px) {
   .header__nav {
     width: 910px;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__nav {
+    width: 360px;
+    padding-top: 33px;
 
   }
 }

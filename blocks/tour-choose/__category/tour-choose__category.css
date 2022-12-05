@@ -27,7 +27,7 @@
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-choose__category {
     margin: 0;
     margin-top: 30px;

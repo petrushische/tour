@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-foto__foto_type_small {
     width: 99.33px;
     height: 110px;

@@ -4,7 +4,7 @@
   list-style: none;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .header__menu {
     display: none;
 

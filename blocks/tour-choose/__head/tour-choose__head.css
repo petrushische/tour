@@ -3,7 +3,7 @@
   margin-bottom: 100px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .tour-choose__head {
     text-align: center;
     width: 290px;
