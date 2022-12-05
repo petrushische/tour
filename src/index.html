@@ -10,10 +10,10 @@
     />
     <meta name="author" content="Пётр Румянцев" />
     <meta name="keywords" content="Путешествия" />
-    
+    <link rel="shortcut icon" href="<%=require('../images/YourTour.svg')%>" type="image/x-icon">
     <title>YourTour</title>
   </head>
-  <body>
+  <body class="body">
     <div class="page">
       <div class="header">
         <div class="header__nav">
@@ -132,8 +132,9 @@
               name="direction"
               id="direction"
               class="tour-assemble__input"
+              
             >
-              <option value="" disabled selected hidden>
+              <option value="" disabled selected hidden >
                 Куда хотите ехать
               </option>
               <option value="1">На кудыкину гору</option>
@@ -160,7 +161,7 @@
           <label for="date-from" class="tour-assemble__input-title">
             Дата от
             <input
-              type="date"
+              type="text"
               id="date-from"
               class="tour-assemble__input"
               placeholder="ДД.ММ.ГГГГ"
@@ -170,7 +171,7 @@
           <label for="date-before" class="tour-assemble__input-title">
             Дата до
             <input
-              type="date"
+              type="text"
               id="date-before"
               class="tour-assemble__input"
               placeholder="ДД.ММ.ГГГГ"
@@ -420,19 +421,18 @@
           </li>
         </nav>
       </footer>
-    </div>
-    <div class="scroll">
-      <div class="scroll__wrapper">
-        <img src="<%=require('../images/YourTour-black.svg')%>" alt="Логотип" class="scroll__logo" />
-          <nav class="scroll__menu scroll__menu_type_320">
-            <li><a href="javascript:void(0);" class="scroll__link">Туры</a></li>
-            <li><a href="javascript:void(0);" class="scroll__link">Создать тур</a></li>
-            <li><a href="javascript:void(0);" class="scroll__link">Отзывы</a></li>
-            <li><a href="javascript:void(0);" class="scroll__link">Истории</a></li>
-          </nav>
-          <p class="scroll__number">+7 999 999 99 99</p>
+      <div class="scroll">
+        <div class="scroll__wrapper">
+          <img src="<%=require('../images/YourTour-black.svg')%>" alt="Логотип" class="scroll__logo" />
+            <nav class="scroll__menu scroll__menu_type_320">
+              <li><a href="javascript:void(0);" class="scroll__link">Туры</a></li>
+              <li><a href="javascript:void(0);" class="scroll__link">Создать тур</a></li>
+              <li><a href="javascript:void(0);" class="scroll__link">Отзывы</a></li>
+              <li><a href="javascript:void(0);" class="scroll__link">Истории</a></li>
+            </nav>
+            <p class="scroll__number">+7 999 999 99 99</p>
+        </div>
       </div>
     </div>
-    
   </body>
 </html>

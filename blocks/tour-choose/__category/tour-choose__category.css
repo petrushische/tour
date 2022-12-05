@@ -13,7 +13,7 @@
 
 .tour-choose__category:first-of-type {
   color: #EFA501;
-  text-decoration: underline;
+  border-bottom: 2px solid #EFA501;
 }
 
 .tour-choose__category:nth-of-type(5) {
@@ -21,9 +21,9 @@
 }
 
 
-.tour-choose__category:active {
-  color: #EFA501;
-  text-decoration: underline;
+.tour-choose__category:hover {
+  color: black;
+  border-bottom: 2px solid black;
 }
 
 

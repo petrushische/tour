@@ -2,6 +2,8 @@
 
 @import url(../fonts/fonts.css);
 
+@import url(../blocks/body/body.css);
+
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -118,4 +120,9 @@
 .html {
   width: 100vw;
   overflow-x: hidden;
+}
+
+#direction {
+  padding-left: 20px;
+  color: #A6A6A6;
 }

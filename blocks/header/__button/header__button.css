@@ -21,7 +21,8 @@
 
 .header__button:hover {
   cursor: pointer;
-  background-color: gold;
+  background: #EFA501;
+  color: white;
 }
 
 

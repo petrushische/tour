@@ -1,4 +1,5 @@
 .tour-history__card-logo {
+  box-sizing: border-box;
   margin: 0;
   font-style: normal;
   font-weight: 400;
@@ -6,8 +7,10 @@
   line-height: 142%;
   color: #FFFFFF;
   text-decoration: none;
+  height: 29px;
+
 }
 
 .tour-history__card-logo:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid white;
 }

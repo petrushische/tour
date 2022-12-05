@@ -1,36 +1,34 @@
 .tour-choose__link {
   margin-top: 277px;
-  width: 270px;
+  margin-right: 124px;
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
   line-height: 122%;
-  /* identical to box height, or 28px */
-
-
-  /* White */
-
   color: #FFFFFF;
 
 }
 
 .tour-choose__link:hover {
-  color: gold;
+  height: 30px;
+  text-align: center;
+  background: #286562;
+  border-radius: 50px;
 }
 
 
 @media screen and (max-width: 1024px) {
   .tour-choose__link {
-    width: 350px;
     margin-top: 320px;
+    margin-right: 200px;
   }
 }
 
 
 @media screen and (max-width: 360px) {
   .tour-choose__link {
-    width: 268px;
+    margin-right: 155px;
     margin-top: 179.5px;
     font-size: 16px;
     line-height: 142%;

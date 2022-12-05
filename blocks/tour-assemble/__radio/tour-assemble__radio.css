@@ -2,11 +2,64 @@
   width: 26px;
   height: 26px;
   margin-right: 11px;
+  position: relative;
+}
+
+.tour-assemble__radio::after {
+  content: "";
+  width: 23px;
+  height: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid black;
+}
+
+
+
+.tour-assemble__radio:checked:after {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  border-radius: 50px;
+  background-color: #1B1F2B;
+  content: '';
+  display: inline-block;
+  visibility: visible;
 }
 
 @media screen and (max-width: 360px) {
   .tour-assemble__radio {
     width: 20px;
     height: 20px;
+  }
+
+  .tour-assemble__radio::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid black;
+  }
+
+
+
+  .tour-assemble__radio:checked:after {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border-radius: 50px;
+    background-color: #1B1F2B;
+    content: '';
+    display: inline-block;
+    visibility: visible;
   }
 }

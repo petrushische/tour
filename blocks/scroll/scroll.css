@@ -1,8 +1,6 @@
 .scroll {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  width: 1920px;
   height: 88px;
   display: none;
   align-items: center;
