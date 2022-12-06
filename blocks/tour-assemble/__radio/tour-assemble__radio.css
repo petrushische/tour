@@ -51,8 +51,8 @@
 
 
   .tour-assemble__radio:checked:after {
-    width: 5px;
-    height: 5px;
+    width: 4px;
+    height: 4px;
     position: absolute;
     top: 6px;
     left: 6px;

@@ -39,8 +39,17 @@
 @media screen and (max-width: 500px) {
   .tour-choose__link {
     margin-right: 155px;
+    width: 110px;
     margin-top: 179.5px;
     font-size: 16px;
     line-height: 142%;
+
+  }
+
+  .tour-choose__link:hover {
+    height: 30px;
+    text-align: center;
+    background: #286562;
+    border-radius: none;
   }
 }
