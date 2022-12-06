@@ -4,7 +4,18 @@
   list-style: none;
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 1000px) {
+  .header__menu {
+    gap: 0;
+    row-gap: 20px;
+    width: 280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 710px) {
   .header__menu {
     display: none;
 

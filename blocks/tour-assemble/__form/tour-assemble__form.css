@@ -11,14 +11,32 @@
 
 @media screen and (max-width: 1250px) {
   .tour-assemble__form {
-    width: 1024px;
+    width: 980px;
+    column-gap: 25px;
   }
 }
 
 
 @media screen and (max-width: 1024px) {
   .tour-assemble__form {
-    width: 918px;
+    max-width: 918px;
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .tour-assemble__form {
+    max-width: 700px;
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .tour-assemble__form {
+    max-width: 490px;
+    width: 100%;
 
   }
 }

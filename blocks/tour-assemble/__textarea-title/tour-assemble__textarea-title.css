@@ -24,6 +24,24 @@
   }
 }
 
+@media screen and (max-width: 940px) {
+  .tour-assemble__textarea-title {
+
+    width: 550px;
+
+  }
+
+
+}
+
+@media screen and (max-width: 750px) {
+  .tour-assemble__textarea-title {
+    width: 390px;
+
+  }
+}
+
+
 @media screen and (max-width: 500px) {
   .tour-assemble__textarea-title {
     margin-top: 30px;

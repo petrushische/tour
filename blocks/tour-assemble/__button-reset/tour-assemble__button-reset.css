@@ -17,6 +17,14 @@
   background: #F1F3F2;
 }
 
+@media screen and (max-width: 750px) {
+  .tour-assemble__button-reset {
+    width: 170px;
+  }
+
+
+}
+
 
 @media screen and (max-width: 500px) {
   .tour-assemble__button-reset {

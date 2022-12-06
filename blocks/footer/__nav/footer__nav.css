@@ -5,12 +5,3 @@
   height: 28px;
   list-style: none;
 }
-
-
-@media screen and (max-width: 500px) {
-  .footer__nav {
-    margin-top: 7px;
-    width: 314px;
-    height: 23px;
-  }
-}

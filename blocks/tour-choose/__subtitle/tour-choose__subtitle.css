@@ -15,12 +15,25 @@
   color: #FFFFFF;
 }
 
-
-
 @media screen and (max-width: 1024px) {
   .tour-choose__subtitle {
     width: 350px;
-    height: 43px;
+
+  }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .tour-choose__subtitle {
+    width: 250px;
+
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .tour-choose__subtitle {
+    width: 280px;
   }
 }
 

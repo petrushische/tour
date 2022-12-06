@@ -3,6 +3,22 @@
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 1024px) {
+  .tour-choose__head {
+
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-choose__head {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-choose__head {
     text-align: center;

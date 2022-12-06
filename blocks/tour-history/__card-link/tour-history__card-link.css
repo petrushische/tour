@@ -17,6 +17,13 @@
   color: gold;
 }
 
+@media screen and (max-width: 1000px) {
+  .tour-history__card-link {
+    margin-top: 50px;
+
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-history__card-link {
     margin-top: 40.5px;

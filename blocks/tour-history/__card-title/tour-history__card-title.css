@@ -16,6 +16,14 @@
 
 }
 
+@media screen and (max-width: 760px) {
+  .tour-history__card-title {
+    width: 350px;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-history__card-title {
     width: 230px;

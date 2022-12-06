@@ -4,11 +4,11 @@ const scrollElement = document.querySelector('.scroll');
 document.addEventListener('scroll', () => {
   let distance = window.scrollY
   if (distance >= 450) {
-    scrollElement.setAttribute('style', 'display:flex')
+    scrollElement.classList.add('scroll__visible')
 
   }
   else {
-    scrollElement.removeAttribute('style')
+    scrollElement.classList.remove('scroll__visible')
   }
 })
 

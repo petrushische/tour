@@ -28,6 +28,20 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .tour-history__card {
+    width: 750px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .tour-history__card {
+    width: 500px;
+    height: 550px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-history__card {
     width: 360px;

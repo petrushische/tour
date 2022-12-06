@@ -3,3 +3,14 @@
   gap: 50px;
   list-style: none;
 }
+
+@media screen and (max-width: 1000px) {
+  .scroll__menu {
+    height: 80px;
+    gap: 0;
+    row-gap: 20px;
+    width: 280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

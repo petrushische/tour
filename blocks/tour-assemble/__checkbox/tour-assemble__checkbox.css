@@ -16,6 +16,26 @@
   border: 2px solid black;
 }
 
+
+
+@media screen and (max-width: 750px) {
+  .tour-assemble__checkbox {
+    width: 25px;
+    height: 25px;
+  }
+
+  .tour-assemble__checkbox::after {
+    content: "";
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    border: 2px solid black;
+  }
+}
+
+
 @media screen and (max-width: 500px) {
   .tour-assemble__checkbox {
     width: 20px;

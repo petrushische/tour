@@ -10,6 +10,15 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 760px) {
+  .tour-history__card-text {
+    width: 350px;
+    font-size: 18px;
+    margin-left: 40px;
+    height: 250px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-history__card-text {
     width: 263px;

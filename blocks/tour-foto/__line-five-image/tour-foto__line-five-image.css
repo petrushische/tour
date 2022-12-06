@@ -21,6 +21,15 @@
   }
 }
 
+@media screen and (max-width: 650px) {
+  .tour-foto__line-five-image {
+    gap: 10px;
+    height: 160px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-foto__line-five-image {
     gap: 10px;

@@ -16,11 +16,25 @@
   color: #FFFFFF;
 }
 
-
 @media screen and (max-width: 1024px) {
   .tour-choose__price {
     width: 350px;
 
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .tour-choose__price {
+    width: 250px;
+
+
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .tour-choose__price {
+    width: 280px;
   }
 }
 

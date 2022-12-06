@@ -2,6 +2,14 @@
   object-fit: cover;
 }
 
+
+@media screen and (max-width: 1000px) {
+  .header__logo {
+    width: 145px;
+    height: 25px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .header__logo {
     width: 133px;

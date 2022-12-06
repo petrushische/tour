@@ -1,0 +1,8 @@
+.scroll__visible {
+  opacity: 1;
+  visibility: visible;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

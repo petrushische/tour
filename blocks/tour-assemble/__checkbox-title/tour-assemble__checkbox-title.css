@@ -22,6 +22,22 @@
   }
 }
 
+@media screen and (max-width: 940px) {
+  .tour-assemble__checkbox-title {
+
+    width: 550px;
+
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .tour-assemble__checkbox-title {
+    width: 390px;
+
+  }
+}
+
+
 @media screen and (max-width: 500px) {
   .tour-assemble__checkbox-title {
     width: 278px;

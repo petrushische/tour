@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 1250px) {
   .tour-choose__card {
-    width: 330px;
+    width: 320px;
   }
 }
 
@@ -28,6 +28,21 @@
     background-size: 100% 100%;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .tour-choose__card {
+    width: 350px;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .tour-choose__card {
+    width: 400px;
+
+  }
+}
+
 
 @media screen and (max-width: 500px) {
   .tour-choose__card {

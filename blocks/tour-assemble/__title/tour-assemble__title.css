@@ -8,6 +8,15 @@
   color: #1B1F2B;
 }
 
+
+@media screen and (max-width: 1000px) {
+  .tour-assemble__title {
+
+    font-size: 50px;
+
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-assemble__title {
     width: 318px;

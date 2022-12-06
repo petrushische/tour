@@ -18,8 +18,23 @@
 
 @media screen and (max-width: 1024px) {
   .footer__title {
-    margin-left: 53px;
+    max-width: 230px;
+    width: 100%;
+    margin-left: 50px;
     margin-right: 277px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .footer__title {
+    font-size: 25px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+    margin-top: 10px;
   }
 }
 
@@ -27,7 +42,8 @@
   .footer__title {
     margin: 0;
     margin-top: 21px;
-    width: 177px;
+    max-width: 300px;
+    text-align: center;
     font-size: 16px;
     line-height: 142%;
   }

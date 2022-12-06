@@ -24,6 +24,26 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .tour-foto__foto {
+    width: 305px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .tour-foto__foto {
+    width: 310px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .tour-foto__foto {
+    width: 230px;
+    height: 100%;
+    border-radius: 20px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-foto__foto {
     width: 150px;

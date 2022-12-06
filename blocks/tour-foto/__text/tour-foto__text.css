@@ -17,6 +17,14 @@
 
 }
 
+@media screen and (max-width: 999px) {
+  .tour-foto__text {
+    width: 400px;
+    font-size: 18px;
+
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-foto__text {
     width: 318px;
