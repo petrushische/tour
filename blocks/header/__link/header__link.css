@@ -7,6 +7,12 @@
   text-decoration: none;
 }
 
+@media screen and (min-width: 1920px) {
+  .header__link {
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .header__link {
     font-size: 16px;

@@ -4,18 +4,21 @@
   list-style: none;
 }
 
-
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1920px) {
   .header__menu {
-    gap: 0;
-    row-gap: 20px;
-    width: 280px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    width: 40%;
+    justify-content: space-between;
   }
 }
 
-@media screen and (max-width: 710px) {
+
+@media screen and (max-width: 1000px) {
+  .header__menu {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .header__menu {
     display: none;
 

@@ -1,13 +1,13 @@
 .scroll {
   position: fixed;
   visibility: hidden;
-  max-width: 1920px;
   width: 100%;
   height: 0;
   opacity: 1;
   font-family: 'Iner', sans-serif;
   background: rgba(243, 239, 232, 0.6);
   backdrop-filter: blur(27px);
+  z-index: 2;
 }
 
 

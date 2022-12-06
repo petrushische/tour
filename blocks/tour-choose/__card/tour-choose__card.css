@@ -7,13 +7,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  transition: scale 300ms ease;
+  overflow: hidden;
 }
 
-.tour-choose__card:hover {
-  scale: 1.1;
-}
 
 @media screen and (max-width: 1250px) {
   .tour-choose__card {
