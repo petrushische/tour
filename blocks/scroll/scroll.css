@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 1000px) {
   .scroll {
-    max-width: 1000px;
+    max-width: 999px;
     width: 100%;
   }
 }

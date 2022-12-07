@@ -1,0 +1,44 @@
+.tour-chooose__wrapper {
+  border-radius: 50px;
+  width: 370px;
+  height: 531px;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 1250px) {
+  .tour-chooose__wrapper {
+    width: 320px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .tour-chooose__wrapper {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-chooose__wrapper {
+    width: 350px;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .tour-chooose__wrapper {
+    width: 400px;
+
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .tour-chooose__wrapper {
+    width: 318px;
+    height: 318px;
+    border-radius: 20px;
+
+  }
+}

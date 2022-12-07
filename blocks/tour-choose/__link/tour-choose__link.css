@@ -7,29 +7,28 @@
   font-size: 23px;
   line-height: 122%;
   color: #FFFFFF;
-
+  padding: 7px 20px;
 }
 
-.tour-choose__link:hover {
-  height: 30px;
-  text-align: center;
-  background: #286562;
-  border-radius: 50px;
+@media screen and (max-width: 1250px) {
+  .tour-choose__link {
+    margin-right: 80px;
+    margin-top: 260px;
+  }
 }
-
 
 @media screen and (max-width: 1024px) {
   .tour-choose__link {
-    width: 350px;
+    width: 159px;
     margin-top: 270px;
-    margin-right: 0;
+    margin-right: 180px;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .tour-choose__link {
-    width: 270px;
-
+    margin-top: 230px;
+    margin-right: 90px;
   }
 }
 
@@ -38,18 +37,12 @@
 
 @media screen and (max-width: 500px) {
   .tour-choose__link {
+    padding: 4px 8px 0px 8px;
     margin-right: 155px;
     width: 110px;
-    margin-top: 179.5px;
-    font-size: 16px;
+    margin-top: 160.5px;
+    font-size: 15px;
     line-height: 142%;
 
-  }
-
-  .tour-choose__link:hover {
-    height: 30px;
-    text-align: center;
-    background: #286562;
-    border-radius: none;
   }
 }

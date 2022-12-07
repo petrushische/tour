@@ -4,22 +4,22 @@
       rgba(0, 0, 0, 0.06) 48.44%,
       rgba(0, 0, 0, 0.5) 100%),
     url(../../../../images/cardtour1.png);
-  transition: scale 300ms ease;
 
+  transition: 0.7s;
+}
+
+
+.tour-choose__card_type_1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 
 }
 
-.tour-choose__card_type_1:before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  transition: all .3s ease-in-out;
-}
-
-.tour-choose__card_type_1:hover:before {
-  transform: scale(1.2);
+.tour-choose__card_type_1:hover a {
+  height: 30px;
+  text-align: center;
+  background: #286562;
+  border-radius: 50px;
 }
 
 

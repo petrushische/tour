@@ -4,6 +4,19 @@
       rgba(0, 0, 0, 0.06) 48.44%,
       rgba(0, 0, 0, 0.5) 100%),
     url(../../../../images/cardtour3.png);
+  transition: 0.7s;
+}
+
+.tour-choose__card_type_3:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.tour-choose__card_type_3:hover a {
+  height: 30px;
+  text-align: center;
+  background: #286562;
+  border-radius: 50px;
 }
 
 @media screen and (max-width: 500px) {

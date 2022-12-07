@@ -1,0 +1,7 @@
+@media screen and (max-width: 500px) {
+  .tour-assemble__checkbox-span-dogovor {
+    position: absolute;
+    top: 20px;
+    right: 111px;
+  }
+}

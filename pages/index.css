@@ -31,6 +31,7 @@
 @import url(../blocks/tour-choose/__subtitle/tour-choose__subtitle.css);
 @import url(../blocks/tour-choose/__price/tour-choose__price.css);
 @import url(../blocks/tour-choose/__link/tour-choose__link.css);
+@import url(../blocks/tour-choose/__wrapper/tour-chooose__wrapper.css);
 
 
 @import url(../blocks/tour-assemble/tour-assemble.css);
@@ -51,6 +52,8 @@
 
 @import url(../blocks/tour-assemble/__checkbox-title/tour-assemble__checkbox-title.css);
 @import url(../blocks/tour-assemble/__checkbox/tour-assemble__checkbox.css);
+@import url(../blocks/tour-assemble/__checkbox-span/tour-assemble__checkbox-span.css);
+@import url(../blocks/tour-assemble/__checkbox-span-dogovor/tour-assemble__checkbox-span-dogovor.css);
 
 @import url(../blocks/tour-assemble/__wrapper-button/tour-assemble__wrapper-button.css);
 @import url(../blocks/tour-assemble/__button-reset/tour-assemble__button-reset.css);
