@@ -1,1 +1,1 @@
-(()=>{"use strict";var s=document.querySelector(".scroll");document.addEventListener("scroll",(function(){window.scrollY>=450?s.classList.add("scroll__visible"):s.classList.remove("scroll__visible")}))})();
+(()=>{"use strict";var e=document.querySelector(".scroll");document.addEventListener("scroll",(function(){window.scrollY>=450?e.classList.add("scroll__visible"):e.classList.remove("scroll__visible")})),document.querySelector(".tour-assemble__checkbox-span").addEventListener("click",(function(e){e.preventDefault()}))})();
