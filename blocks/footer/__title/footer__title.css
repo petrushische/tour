@@ -1,7 +1,8 @@
 .footer__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
-  margin-left: 19.58%;
-  margin-right: 27.45%;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -9,20 +10,27 @@
   color: #A6A6A6;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (min-width: 1920px) {
   .footer__title {
-    margin-left: 15%;
-    margin-right: 21%;
+    font-size: 35px;
+
   }
+}
+
+@media screen and (max-width: 1250px) {
+  .footer__title {}
 }
 
 @media screen and (max-width: 1024px) {
   .footer__title {
     max-width: 230px;
     width: 100%;
-    margin-left: 50px;
-    margin-right: 277px;
+
   }
+}
+
+@media screen and (max-width: 1920px) {
+  .footer__title {}
 }
 
 @media screen and (max-width: 920px) {
@@ -31,10 +39,9 @@
     max-width: 400px;
     width: 100%;
     text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 15px;
-    margin-top: 10px;
+
+
+
   }
 }
 

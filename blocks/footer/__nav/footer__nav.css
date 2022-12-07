@@ -2,8 +2,15 @@
   display: flex;
   justify-content: space-between;
   width: 419px;
-  height: 28px;
+  height: 100%;
   list-style: none;
+}
+
+@media screen and (max-width: 920px) {
+  .footer__nav {
+    height: 25px;
+    margin-bottom: 20px;
+  }
 }
 
 

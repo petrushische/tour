@@ -3,7 +3,21 @@
       rgba(0, 0, 0, 0) 0.01%,
       rgba(0, 0, 0, 0.2) 100%),
     url(../../../../images/story-photo-2.png);
+  transition: 0.7s;
 }
+
+.tour-history__card_type_2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.tour-history__card_type_2:hover .tour-history__card-link {
+  height: 30px;
+  text-align: center;
+  background: #286562;
+  border-radius: 50px;
+}
+
 
 @media screen and (max-width: 1024px) {
   .tour-history__card_type_2 {

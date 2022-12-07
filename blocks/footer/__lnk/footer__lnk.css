@@ -1,4 +1,8 @@
 .footer__lnk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   margin-left: 12px;
   font-style: normal;
   font-weight: 400;
@@ -9,7 +13,15 @@
 }
 
 .footer__lnk:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__lnk {
+    font-size: 25px;
+    line-height: 142%;
+    margin-left: 6.5px;
+  }
 }
 
 @media screen and (max-width: 500px) {

@@ -84,6 +84,7 @@
 @import url(../blocks/tour-history/tour-history.css);
 @import url(../blocks/tour-history/__title/tour-history__title.css);
 @import url(../blocks/tour-history/__text/tour-history__text.css);
+@import url(../blocks/tour-history/__wrapper/tour-history__wrapper.css);
 @import url(../blocks/tour-history/__card/tour-history__card.css);
 @import url(../blocks/tour-history/__card/_type/tour-history__card_type_1.css);
 @import url(../blocks/tour-history/__card/_type/tour-history__card_type_2.css);
@@ -106,6 +107,7 @@
 @import url(../blocks/email-block/__email/email-block__email.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__li/footer__li.css);

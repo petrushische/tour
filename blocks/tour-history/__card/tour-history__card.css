@@ -1,61 +1,10 @@
 .tour-history__card {
+
   width: 100%;
-  height: 567px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 50px;
+
   position: relative;
-  margin-bottom: 50px;
-  scale: 1;
-  transition: scale 300ms ease;
-}
 
-.tour-history__card:hover {
-  scale: 1.1;
-}
-
-
-.tour-history__card:nth-of-type(3) {
-  margin: 0;
-}
-
-
-
-@media screen and (max-width: 1024px) {
-  .tour-history__card {
-    width: 918px;
-
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .tour-history__card {
-    width: 750px;
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .tour-history__card {
-    width: 500px;
-    height: 550px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .tour-history__card {
-    width: 360px;
-    height: 430px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .tour-history__card {
-    width: 318px;
-    height: 445px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-  }
 }
