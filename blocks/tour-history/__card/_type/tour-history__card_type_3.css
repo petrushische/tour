@@ -6,17 +6,7 @@
   transition: 0.7s;
 }
 
-.tour-history__card_type_3:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
 
-.tour-history__card_type_3:hover .tour-history__card-link {
-  height: 30px;
-  text-align: center;
-  background: #286562;
-  border-radius: 50px;
-}
 
 @media screen and (max-width: 1024px) {
   .tour-history__card_type_3 {

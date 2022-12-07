@@ -12,5 +12,9 @@ document.addEventListener('scroll', () => {
   }
 })
 
+const check = document.querySelector('.tour-assemble__checkbox-span')
+check.addEventListener('click', (evt) => {
+  evt.preventDefault()
+})
 
 

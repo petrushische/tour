@@ -1,4 +1,5 @@
 .tour-choose__card {
+  position: relative;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -7,6 +8,39 @@
   flex-direction: column;
   align-items: center;
 }
+
+
+.tour-choose__card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.tour-choose__card:hover a {}
+
+.tour-choose__card:hover {
+  display: inline-block;
+}
+
+.tour-choose__card:hover .tour-choose__subtitle {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+
+.tour-choose__card:hover .tour-choose__price {
+  margin-top: 0;
+  margin-left: 60px;
+}
+
+.tour-choose__card:hover .tour-choose__link {
+  width: 157px;
+  font-size: 23px;
+  position: absolute;
+  bottom: 86px;
+  left: 60px;
+  background: #286562;
+  border-radius: 50px;
+}
+
 
 @media screen and (max-width: 1024px) {
   .tour-choose__card {

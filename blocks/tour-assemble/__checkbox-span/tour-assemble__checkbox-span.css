@@ -8,6 +8,14 @@
   margin-left: 5px;
 }
 
+.tour-assemble__checkbox-span:hover {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+
+
+
 @media screen and (max-width: 750px) {
   .tour-assemble__checkbox-span {
     margin-left: 0;
@@ -23,5 +31,11 @@
     width: 120px;
     top: 22px;
     left: 96px;
+  }
+
+
+
+  .tour-assemble__checkbox-span:hover .tour-assemble__checkbox-span-dogovor {
+    border-bottom: 2px solid black;
   }
 }

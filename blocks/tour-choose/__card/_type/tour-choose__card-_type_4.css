@@ -7,17 +7,7 @@
   transition: 0.7s;
 }
 
-.tour-choose__card_type_4:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
 
-.tour-choose__card_type_4:hover a {
-  height: 30px;
-  text-align: center;
-  background: #286562;
-  border-radius: 50px;
-}
 
 @media screen and (max-width: 500px) {
   .tour-choose__card_type_4 {
