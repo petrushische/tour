@@ -7,6 +7,19 @@
   overflow: hidden;
 }
 
+.tour-history__wrapper:hover .tour-history__card {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.tour-history__wrapper:hover .tour-history__card-link {
+  background: #286562;
+  border-radius: 50px;
+  font-size: 23px;
+  height: 30px;
+  width: 157px;
+}
+
 
 .tour-history__wrapper:nth-of-type(3) {
   margin: 0;

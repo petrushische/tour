@@ -13,6 +13,10 @@
   left: 50px;
 }
 
+.tour-choose__subtitle:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1250px) {
   .tour-choose__subtitle {
     width: 250px;

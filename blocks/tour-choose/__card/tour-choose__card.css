@@ -6,19 +6,8 @@
 }
 
 
-.tour-choose__card:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-}
 
-.tour-choose__card:hover~.tour-choose__link {
-  width: 157px;
-  height: 30px;
-  font-size: 23px;
 
-  background: #286562;
-  border-radius: 50px;
-}
 
 
 

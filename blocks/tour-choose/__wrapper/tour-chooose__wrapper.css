@@ -6,6 +6,19 @@
   overflow: hidden;
 }
 
+.tour-chooose__wrapper:hover .tour-choose__card {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.tour-chooose__wrapper:hover .tour-choose__link {
+  width: 157px;
+  height: 30px;
+  font-size: 23px;
+  background: #286562;
+  border-radius: 50px;
+}
+
 
 @media screen and (max-width: 1250px) {
   .tour-chooose__wrapper {
