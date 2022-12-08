@@ -1,6 +1,6 @@
 .tour-choose__link {
-  margin-top: 277px;
-  margin-right: 94px;
+  /*margin-top: 277px;*/
+  /*margin-right: 94px;*/
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -8,27 +8,18 @@
   line-height: 122%;
   color: #FFFFFF;
   padding: 7px 20px;
+  position: absolute;
+  top: 453px;
+  left: 30px;
 }
 
-@media screen and (max-width: 1250px) {
-  .tour-choose__link {
-    margin-right: 80px;
-    margin-top: 260px;
-  }
-}
 
-@media screen and (max-width: 1024px) {
-  .tour-choose__link {
-    width: 159px;
-    margin-top: 270px;
-    margin-right: 180px;
-  }
-}
+
+
 
 @media screen and (max-width: 1000px) {
   .tour-choose__link {
-    margin-top: 230px;
-    margin-right: 90px;
+    top: 453px;
   }
 }
 
@@ -37,10 +28,12 @@
 
 @media screen and (max-width: 500px) {
   .tour-choose__link {
-    padding: 4px 8px 0px 8px;
+    top: 269px;
+    left: 25px;
+    padding: 4px 8px 4px 8px;
     margin-right: 155px;
     width: 110px;
-    margin-top: 160.5px;
+
     font-size: 15px;
     line-height: 142%;
 

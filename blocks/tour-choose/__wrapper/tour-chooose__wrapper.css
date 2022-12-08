@@ -1,4 +1,5 @@
 .tour-chooose__wrapper {
+  position: relative;
   border-radius: 50px;
   width: 370px;
   height: 531px;

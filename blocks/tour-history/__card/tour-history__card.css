@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  position: relative;
 
 }
 
@@ -15,106 +14,10 @@
   cursor: pointer;
 }
 
-.tour-history__card:hover .tour-history__card-link {
-  height: 30px;
-  text-align: center;
+.tour-history__card:hover~.tour-history__card-link {
   background: #286562;
   border-radius: 50px;
-}
-
-.tour-history__card:hover .tour-history__card-title {
-
-  padding-top: 100px;
-  margin-left: 160px;
-}
-
-.tour-history__card:hover .tour-history__card-text {
-  margin-top: 20px;
-  min-height: 224px;
-  margin-left: 160px;
-}
-
-.tour-history__card:hover .tour-history__card-list {
-  margin-top: 10px;
-}
-
-.tour-history__card:hover .tour-history__card-link {
-  margin-top: 50px;
-  margin-left: 160px;
-}
-
-.tour-history__card:hover .tour-history__card-logos {
-  position: absolute;
-  bottom: 95px;
-  right: 150px;
-}
-
-
-
-@media screen and (max-width: 1000px) {
-  .tour-history__card:hover .tour-history__card-title {
-
-    padding-top: 80px;
-    margin-left: 100px;
-  }
-
-  .tour-history__card:hover .tour-history__card-text {
-
-    margin-left: 100px;
-  }
-
-  .tour-history__card:hover .tour-history__card-link {
-    margin-top: 10px;
-    margin-left: 100px;
-  }
-
-  .tour-history__card:hover .tour-history__card-logos {
-
-    bottom: 85px;
-    right: 80px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .tour-history__card:hover .tour-history__card-title {
-
-    margin-left: 80px;
-  }
-
-  .tour-history__card:hover .tour-history__card-text {
-
-    margin-left: 80px;
-
-  }
-
-  .tour-history__card:hover .tour-history__card-link {
-    margin-left: 80px;
-
-
-  }
-
-
-}
-
-@media screen and (max-width: 500px) {
-  .tour-history__card:hover .tour-history__card-title {
-    font-size: 22px;
-    padding-top: 70px;
-    margin-left: 60px;
-  }
-
-  .tour-history__card:hover .tour-history__card-text {
-    margin-top: 10px;
-    margin-left: 60px;
-    font-size: 14px;
-  }
-
-  .tour-history__card:hover .tour-history__card-link {
-    margin-left: 0;
-    position: absolute;
-    bottom: 60px;
-    left: 60px;
-
-  }
-
+  font-size: 23px;
+  height: 30px;
+  width: 157px;
 }

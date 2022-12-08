@@ -3,6 +3,12 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 50px;
+  top: 479px;
   right: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tour-history__card-logos {
+    top: 417px;
+  }
 }
