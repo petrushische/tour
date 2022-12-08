@@ -13,6 +13,12 @@
   left: 60px;
 }
 
+
+.tour-history__card-text:hover {
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 760px) {
   .tour-history__card-text {
     width: 350px;
