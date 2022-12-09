@@ -9,6 +9,13 @@
   }
 }
 
+@media screen and (max-width: 1920px) {
+  .header__logo {
+    width: 181.84px;
+    height: 30.24px;
+  }
+}
+
 
 @media screen and (max-width: 1000px) {
   .header__logo {

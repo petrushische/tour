@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 1024px) {
   .tour-assemble__wrapper-radio {
+    margin-top: -10px;
     width: 798px;
   }
 }

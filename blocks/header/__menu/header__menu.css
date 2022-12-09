@@ -11,6 +11,19 @@
   }
 }
 
+@media screen and (max-width: 1920px) {
+  .header__menu {
+    width: 468px;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__menu {
+    width: 460px;
+
+  }
+}
 
 @media screen and (max-width: 1000px) {
   .header__menu {

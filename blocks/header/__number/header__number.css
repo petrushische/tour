@@ -13,6 +13,12 @@
   }
 }
 
+@media screen and (max-width: 1920px) {
+  .header__number {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .header__number {
     font-size: 16px;

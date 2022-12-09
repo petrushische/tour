@@ -5,6 +5,7 @@
   font-size: 20px;
   line-height: 142%;
   text-decoration: none;
+
 }
 
 @media screen and (min-width: 1920px) {
@@ -12,6 +13,14 @@
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 1920px) {
+  .header__link {
+    font-size: 20px;
+  }
+}
+
+
 
 @media screen and (max-width: 1000px) {
   .header__link {

@@ -9,9 +9,33 @@
   color: #1B1F2B;
 }
 
+@media screen and (min-width: 1920px) {
+  .tour-assemble__radio-title {
+    margin-top: 7px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .tour-assemble__radio-title {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tour-assemble__radio-title {
+    margin-top: 5px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .tour-assemble__radio-title {
     font-size: 16px;
     line-height: 142%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__radio-title {
+    margin-top: 10px;
   }
 }

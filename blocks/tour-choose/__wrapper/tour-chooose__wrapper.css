@@ -55,4 +55,12 @@
     border-radius: 20px;
 
   }
+
+  .tour-chooose__wrapper:hover .tour-choose__link {
+    width: 130px;
+    height: 20px;
+    font-size: 16px;
+
+  }
+
 }

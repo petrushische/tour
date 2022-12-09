@@ -42,8 +42,9 @@
 
 @media screen and (max-width: 500px) {
   .tour-assemble__checkbox {
-    height: 19px;
-    width: 20px;
+    width: 23px;
+    height: 21px;
+    margin-right: 5px;
   }
 
   .tour-assemble__checkbox::after {

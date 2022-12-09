@@ -11,8 +11,8 @@
   color: #FFFFFF;
   padding: 7px 20px;
   position: absolute;
-  top: 479px;
-  left: 60px;
+  top: 472px;
+  left: 40px;
 }
 
 
@@ -30,19 +30,12 @@
 
 @media screen and (max-width: 500px) {
   .tour-history__card-link {
+
     padding: 7px 12px 7px 12px;
     font-size: 16px;
     line-height: 142%;
-    top: 380px;
+    top: 400px;
     left: 18px;
 
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .tour-history__card-link {
-
-    font-size: 16px;
-    line-height: 142%;
   }
 }

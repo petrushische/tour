@@ -15,6 +15,15 @@
 
 }
 
+
+@media screen and (max-width: 1920px) {
+  .scroll__number {
+
+    font-size: 20px;
+  }
+
+}
+
 @media screen and (max-width: 1000px) {
   .scroll__number {
 

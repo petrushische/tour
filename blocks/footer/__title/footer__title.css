@@ -17,6 +17,13 @@
   }
 }
 
+@media screen and (max-width: 1920px) {
+  .footer__title {
+    font-size: 20px;
+
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .footer__title {}
 }
@@ -29,9 +36,6 @@
   }
 }
 
-@media screen and (max-width: 1920px) {
-  .footer__title {}
-}
 
 @media screen and (max-width: 920px) {
   .footer__title {

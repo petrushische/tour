@@ -17,11 +17,27 @@
   }
 }
 
+@media screen and (max-width: 1920px) {
+  .header__subtitle {
+    width: 562px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    margin-top: 50px;
+    width: 442px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .header__subtitle {
     max-width: 400px;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 4%;
     font-size: 18px;
     /* or 23px */
   }
@@ -30,11 +46,18 @@
 
 @media screen and (max-width: 500px) {
   .header__subtitle {
-    margin-top: 40px;
+    margin-top: 11.11%;
     width: 309px;
     height: 69px;
     font-size: 16px;
     line-height: 142%;
     /* or 23px */
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header__subtitle {
+    margin-top: 40px;
+
   }
 }

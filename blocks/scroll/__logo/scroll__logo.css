@@ -12,6 +12,15 @@
   }
 }
 
+@media screen and (max-width: 1920px) {
+  .scroll__logo {
+    width: 182px;
+    height: 32px;
+    object-fit: contain;
+  }
+}
+
+
 @media screen and (max-width: 1000px) {
   .scroll__logo {
     width: 125px;

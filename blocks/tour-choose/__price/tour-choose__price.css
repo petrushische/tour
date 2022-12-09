@@ -28,7 +28,7 @@
 @media screen and (max-width: 1024px) {
   .tour-choose__price {
     width: 350px;
-
+    top: 110px;
 
   }
 }
@@ -37,7 +37,7 @@
 @media screen and (max-width: 1000px) {
   .tour-choose__price {
     width: 250px;
-
+    top: 150px;
 
   }
 }

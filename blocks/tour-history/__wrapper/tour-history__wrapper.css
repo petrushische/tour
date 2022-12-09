@@ -55,12 +55,19 @@
     margin-bottom: 20px;
     border-radius: 20px;
   }
+
+  .tour-history__wrapper:hover .tour-history__card-link {
+
+    font-size: 16px;
+    height: 20px;
+    width: 130px;
+  }
 }
 
 @media screen and (max-width: 360px) {
   .tour-history__wrapper {
     width: 318px;
-    height: 445px;
+    height: 455px;
     margin-bottom: 20px;
     border-radius: 20px;
   }

@@ -12,8 +12,22 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1024px) {
+  .header__title {
+    margin-top: 149px;
+    width: 914px;
+    height: 315px;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 109%;
+    /* or 105px */
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .header__title {
+    margin-top: 14.9%;
+    height: 100%;
     max-width: 500px;
     width: 100%;
     font-weight: 700;
@@ -29,5 +43,11 @@
     margin-top: 84.5px;
     font-size: 34px;
     line-height: 112%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header__title {
+    max-height: 114px;
   }
 }

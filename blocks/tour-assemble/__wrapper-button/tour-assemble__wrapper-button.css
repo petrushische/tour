@@ -32,3 +32,13 @@
 
 
 }
+
+
+@media screen and (max-width: 360px) {
+  .tour-assemble__wrapper-button {
+    margin-top: 0;
+
+  }
+
+
+}

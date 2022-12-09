@@ -1,14 +1,9 @@
 .tour-choose__head {
   width: 735px;
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 
-@media screen and (max-width: 1024px) {
-  .tour-choose__head {
 
-    width: 700px;
-  }
-}
 
 @media screen and (max-width: 1000px) {
   .tour-choose__head {

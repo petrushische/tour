@@ -17,6 +17,14 @@
   }
 }
 
+@media screen and (max-width: 1920px) {
+  .scroll__link {
+
+    font-size: 20px;
+  }
+
+}
+
 
 @media screen and (max-width: 1000px) {
   .scroll__link {

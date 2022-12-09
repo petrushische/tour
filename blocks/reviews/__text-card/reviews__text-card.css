@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 1024px) {
   .reviews__text-card {
+    margin-top: 35px;
     width: 380px;
 
   }
