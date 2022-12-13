@@ -19,6 +19,9 @@
   border-radius: 50px;
 }
 
+.tour-chooose__wrapper:hover .tour-choose__link:active {
+  background-color: #EFA501;
+}
 
 @media screen and (max-width: 1250px) {
   .tour-chooose__wrapper {

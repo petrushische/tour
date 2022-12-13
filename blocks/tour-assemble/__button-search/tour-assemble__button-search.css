@@ -21,6 +21,10 @@
   background: #3B7E7B;
 }
 
+.tour-assemble__button-search:active {
+  background: #627F7E;
+}
+
 
 @media screen and (max-width: 750px) {
   .tour-assemble__button-search {

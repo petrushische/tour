@@ -7,3 +7,8 @@
   border-bottom: 2px solid black;
   cursor: pointer;
 }
+
+.email-block__email:active {
+  border-bottom: 2px solid #286562;
+  color: #286562;
+}

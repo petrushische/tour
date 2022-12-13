@@ -14,3 +14,8 @@
 .tour-history__card-logo:hover {
   border-bottom: 2px solid white;
 }
+
+.tour-history__card-logo:active {
+  color: #EFA501;
+  border-bottom: 2px solid #EFA501;
+}

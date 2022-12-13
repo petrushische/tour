@@ -20,6 +20,9 @@
   width: 157px;
 }
 
+.tour-history__wrapper:hover .tour-history__card-link:active {
+  background-color: #EFA501;
+}
 
 .tour-history__wrapper:nth-of-type(3) {
   margin: 0;
